@@ -1,0 +1,437 @@
+{
+  "id": "urn:smartnstda:Dashboard:NSTDA",
+  "type": "Dashboard",
+  "customPallets": [
+    {
+      "id": "urn:smartnstda:CustomPallet:weather",
+      "dataURL": {
+        "method": "GET",
+        "url": "https://api.openweathermap.org/data/2.5/weather?lat=14.076648&lon=100.601465&units=metric&appid=f47eeabecaa43594079886ab0fcd1508"
+      },
+      "iconURL": {
+        "method": "GET",
+        "url": "https://bulma.io/images/placeholders/32x32.png"
+      },
+      "name": "Weather",
+      "template": "<ReferenceError: main is not defined>/<ReferenceError: main is not defined>%"
+    }
+  ],
+  "logoURL": {
+    "method": "GET",
+    "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/Logo_KU-KPS.png"
+  },
+  "mapOption": {
+    "center": {
+      "lat": 14.0219526,
+      "lng": 99.972777
+    },
+    "zoom": 13
+  },
+  "name": "มหาวิทยาลัยเกษตรศาสตร์ กำแพงแสน",
+  "panelIcons": [
+    {
+      "id": "urn:smartnstda:PanelIcon:Sport",
+      "defaultLayerIndex": 0,
+      "layers": [
+        {
+          "id": "urn:smartnstda:Layer:Sport",
+          "defaultMapObjectIndex": 0,
+          "mapObjects": [
+            {
+              "id": "urn:smartnstda:MapObject:buildingElectricityUsage",
+              "markers": [
+                {
+                  "id": "urn:smartnstda:Marker:buildingElectricityUsage:nectec",
+                  "hoverContent": {
+                    "title": "การใช้ไฟฟ้าอาคารศอ.",
+                    "bodyContent": {
+                      "embeddedURL": {
+                        "method": "GET",
+                        "url": "https://embedded.dess.web.meca.in.th/dashboard/snapshot/6y4n3gqSbTKPbVt8qQspKaz6eeCilpBA?orgId=1&from=now-1h&to=now&refresh=10s&kiosk"
+                      }
+                    },
+                    "footer": "ข้อมูลจาก DESS / INO ศอ."
+                  },
+                  "iconURL": {
+                    "method": "GET",
+                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/sportlocation.png"
+                  },
+                  "name": "สนามฟุตบอล ม.เกษตรศาสตร์วิทยาเขตกำแพงแสน",
+                  "position": {
+                    "lat": 14.0211835,
+                    "lng": 99.9819438
+                  }
+                }
+              ],
+              "name": "หมวดกีฬา"
+            }
+          ],
+          "mapOption": {
+            "center": {
+              "lat": 14.0211835,
+              "lng": 99.9819438
+            },
+            "zoom": 16
+          },
+          "name": "หมวดกีฬา"
+        },
+        {
+          "id": "urn:smartnstda:Layer:solar",
+          "defaultMapObjectIndex": 0,
+          "mapObjects": [
+            {
+              "id": "urn:smartnstda:MapObject:solar",
+              "markers": [
+                {
+                  "id": "urn:smartnstda:Marker:solar:nectec",
+                  "hoverContent": {
+                    "title": "สถิติพลังงาน Solar Cell ศอ.",
+                    "bodyContent": {
+                      "embeddedURL": {
+                        "method": "GET",
+                        "url": "https://www.sunnyportal.com/Templates/PublicPage.aspx?page=63a455d9-b50a-4915-8dc9-34edcc1273bd"
+                      }
+                    },
+                    "footer": "ข้อมูลจาก BESS ศอ."
+                  },
+                  "iconURL": {
+                    "method": "GET",
+                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/sportlocation.png"
+                  },
+                  "name": "สวนสาธารณะ",
+                  "position": {
+                    "lat": 14.0236864,
+                    "lng": 99.9727015
+                  }
+                },
+                {
+                  "id": "urn:smartnstda:Marker:solar:ssh",
+                  "iconURL": {
+                    "method": "GET",
+                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/sportlocation.png"
+                  },
+                  "name": "ศูนย์ออกกำลังกาย",
+                  "position": {
+                    "lat": 14.0236916,
+                    "lng": 99.9705128
+                  }
+                }
+              ],
+              "name": "หมวดยิม"
+            }
+          ],
+          "mapOption": {
+            "center": {
+              "lat": 14.0236864,
+              "lng": 99.9727015
+            },
+            "zoom": 16
+          },
+          "name": "หมวดยิม"
+        }
+      ],
+      "logoURL": {
+        "method": "GET",
+        "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/sport.png"
+      },
+      "name": "Sport",
+      "tooltip": "Sport"
+    },
+    {
+      "id": "urn:smartnstda:PanelIcon:restaurants",
+      "defaultLayerIndex": 0,
+      "layers": [
+        {
+          "id": "urn:smartnstda:Layer:buildingWaterUsage",
+          "defaultMapObjectIndex": 0,
+          "mapObjects": [
+            {
+              "id": "urn:smartnstda:MapObject:buildingWaterUsage",
+              "markers": [
+                {
+                  "id": "urn:smartnstda:Marker:buildingWaterUsage:nectec",
+                  "iconURL": {
+                    "method": "GET",
+                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/restaurant.png"
+                  },
+                  "name": "Texas steak ku.beef",
+                  "position": {
+                    "lat": 14.02139976240583,
+                    "lng": 99.98874934859256
+                  }
+                },
+                {
+                  "id": "urn:smartnstda:Marker:buildingWaterUsage:nectec",
+                  "iconURL": {
+                    "method": "GET",
+                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/restaurant.png"
+                  },
+                  "name": "ร้านชาพะยอม",
+                  "position": {
+                    "lat": 14.02120382528518,
+                    "lng": 99.98975030505075
+                  }
+                },
+                {
+                  "id": "urn:smartnstda:Marker:buildingWaterUsage:nectec",
+                  "iconURL": {
+                    "method": "GET",
+                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/restaurant.png"
+                  },
+                  "name": "ป้าสำราญ แคนตั๊กกี้",
+                  "position": {
+                    "lat": 14.021950491353849,
+                    "lng": 99.98332587460398
+                  }
+                }
+              ],
+              "name": "ตำแหน่งร้านอาหาร"
+            }
+          ],
+          "mapOption": {
+            "center": {
+              "lat": 14.02139976240583,
+              "lng": 99.98874934859256
+            },
+            "zoom": 16
+          },
+          "name": "ตำแหน่งร้านอาหาร"
+        }
+      ],
+      "logoURL": {
+        "method": "GET",
+        "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/burger.png"
+      },
+      "name": "food",
+      "tooltip": "food"
+    },
+    {
+      "id": "urn:smartnstda:PanelIcon:education",
+      "defaultLayerIndex": 0,
+      "layers": [
+        {
+          "id": "urn:smartnstda:Layer:work",
+          "defaultMapObjectIndex": 0,
+          "mapObjects": [
+            {
+              "id": "urn:smartnstda:MapObject:waste",
+              "markers": [
+                {
+                  "id": "urn:smartnstda:Marker:waste:biotec",
+                  "hoverContent": {
+                    "title": "ปริมาณขยะแยกประเภทอาคารศช.",
+                    "bodyContent": {
+                      "embeddedURL": {
+                        "method": "GET",
+                        "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/f24dd770-d979-11eb-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-12M,to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%93%E0%B8%82%E0%B8%A2%E0%B8%B0%20BIOTEC',viewMode:view)"
+                      }
+                    },
+                    "footer": "ข้อมูลจาก FMD สวทช."
+                  },
+                  "iconURL": {
+                    "method": "GET",
+                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/booklocation.png"
+                  },
+                  "name": "กองกิจการนิสิต กำแพงแสน",
+                  "position": {
+                    "lat": 14.028339962742468,
+                    "lng": 99.9804914144116
+                  }
+                },
+                {
+                  "id": "urn:smartnstda:Marker:waste:cc",
+                  "hoverContent": {
+                    "title": "ปริมาณขยะแยกประเภทอาคารศูนย์ประชุม",
+                    "bodyContent": {
+                      "embeddedURL": {
+                        "method": "GET",
+                        "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/19d2b950-d97a-11eb-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-1y,to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%93%E0%B8%82%E0%B8%A2%E0%B8%B0%20CC',viewMode:view)"
+                      }
+                    },
+                    "footer": "ข้อมูลจาก FMD สวทช."
+                  },
+                  "iconURL": {
+                    "method": "GET",
+                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/booklocation.png"
+                  },
+                  "name": "สถาบันวิจัยและพัฒนา กำแพงแสน มหาวิทยาลัยเกษตรศาสตร์ วิทยาเขตกำแพงแสน",
+                  "position": {
+                    "lat": 14.029526569539028,
+                    "lng": 99.97379662055094
+                  }
+                },
+                {
+                  "id": "urn:smartnstda:Marker:waste:co",
+                  "hoverContent": {
+                    "title": "ปริมาณขยะแยกประเภทอาคารสำนักงานกลาง",
+                    "bodyContent": {
+                      "embeddedURL": {
+                        "method": "GET",
+                        "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/35001f10-d97a-11eb-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-1y,to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%93%E0%B8%82%E0%B8%A2%E0%B8%B0%20CO',viewMode:view)"
+                      }
+                    },
+                    "footer": "ข้อมูลจาก FMD สวทช."
+                  },
+                  "iconURL": {
+                    "method": "GET",
+                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/booklocation.png"
+                  },
+                  "name": "ศูนย์วิจัยและพัฒนาพืชผักเขตร้อน",
+                  "position": {
+                    "lat": 14.029006128718365,
+                    "lng": 99.97021318927125
+                  }
+                }
+              ],
+              "name": "ตำแหน่งของสำนักงาน"
+            }
+          ],
+          "mapOption": {
+            "center": {
+              "lat": 14.028339962742468,
+              "lng": 99.9804914144116
+            },
+            "zoom": 16
+          },
+          "name": "ตำแหน่งของสำนักงาน"
+        },
+        {
+          "id": "urn:smartnstda:Layer:learn",
+          "defaultMapObjectIndex": 0,
+          "mapObjects": [
+            {
+              "id": "urn:smartnstda:MapObject:learn",
+              "markers": [
+                {
+                  "id": "urn:smartnstda:Marker:consumer:nectec",
+                  "hoverContent": {
+                    "title": "ปริมาณการใช้ของอุปโภคอาคารศอ.",
+                    "bodyContent": {
+                      "embeddedURL": {
+                        "method": "GET",
+                        "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/eba5ad60-c765-11eb-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-1y,to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%A7%E0%B8%B1%E0%B8%AA%E0%B8%94%E0%B8%B8%E0%B8%AA%E0%B8%B4%E0%B9%89%E0%B9%80%E0%B8%9B%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%87,viewMode:view)&hide-filter-bar=true"
+                      }
+                    },
+                    "footer": "ข้อมูลจาก BESS ศอ."
+                  },
+                  "iconURL": {
+                    "method": "GET",
+                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/booklocation.png"
+                  },
+                  "name": "คณะวิศวกรรมศาสตร์ กำแพงแสน มหาวิทยาลัยเกษตรศาสตร์",
+                  "position": {
+                    "lat": 14.020933058563315,
+                    "lng": 99.97120676030538
+                  }
+                },
+                {
+                  "id": "urn:smartnstda:Marker:consumer:nectec",
+                  "hoverContent": {
+                    "title": "ปริมาณการใช้ของอุปโภคอาคารศอ.",
+                    "bodyContent": {
+                      "embeddedURL": {
+                        "method": "GET",
+                        "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/eba5ad60-c765-11eb-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-1y,to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%A7%E0%B8%B1%E0%B8%AA%E0%B8%94%E0%B8%B8%E0%B8%AA%E0%B8%B4%E0%B9%89%E0%B9%80%E0%B8%9B%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%87,viewMode:view)&hide-filter-bar=true"
+                      }
+                    },
+                    "footer": "ข้อมูลจาก BESS ศอ."
+                  },
+                  "iconURL": {
+                    "method": "GET",
+                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/booklocation.png"
+                  },
+                  "name": "คณะศึกษาศาสตร์และพัฒนศาสตร์ มหาวิทยาลัยเกษตรศาสตร์",
+                  "position": {
+                    "lat": 14.020933058562516,
+                    "lng": 99.97509059859118
+                  }
+                },
+                {
+                  "id": "urn:smartnstda:Marker:consumer:nectec",
+                  "hoverContent": {
+                    "title": "ปริมาณการใช้ของอุปโภคอาคารศอ.",
+                    "bodyContent": {
+                      "embeddedURL": {
+                        "method": "GET",
+                        "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/eba5ad60-c765-11eb-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-1y,to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%A7%E0%B8%B1%E0%B8%AA%E0%B8%94%E0%B8%B8%E0%B8%AA%E0%B8%B4%E0%B9%89%E0%B9%80%E0%B8%9B%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%87,viewMode:view)&hide-filter-bar=true"
+                      }
+                    },
+                    "footer": "ข้อมูลจาก BESS ศอ."
+                  },
+                  "iconURL": {
+                    "method": "GET",
+                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/booklocation.png"
+                  },
+                  "name": "คณะศิลปศาสตร์และวิทยาศาสตร์ มหาวิทยาลัยเกษตรศาสตร์",
+                  "position": {
+                    "lat": 14.025200788652102,
+                    "lng": 99.97715053494731
+                  }
+                },
+                {
+                  "id": "urn:smartnstda:Marker:consumer:nectec",
+                  "hoverContent": {
+                    "title": "ปริมาณการใช้ของอุปโภคอาคารศอ.",
+                    "bodyContent": {
+                      "embeddedURL": {
+                        "method": "GET",
+                        "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/eba5ad60-c765-11eb-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-1y,to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%A7%E0%B8%B1%E0%B8%AA%E0%B8%94%E0%B8%B8%E0%B8%AA%E0%B8%B4%E0%B9%89%E0%B9%80%E0%B8%9B%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%87,viewMode:view)&hide-filter-bar=true"
+                      }
+                    },
+                    "footer": "ข้อมูลจาก BESS ศอ."
+                  },
+                  "iconURL": {
+                    "method": "GET",
+                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/booklocation.png"
+                  },
+                  "name": "คณะเกษตร กำแพงแสน",
+                  "position": {
+                    "lat": 14.024049419771385,
+                    "lng": 99.9736998605281
+                  }
+                },
+                {
+                  "id": "urn:smartnstda:Marker:consumer:nectec",
+                  "hoverContent": {
+                    "title": "ปริมาณการใช้ของอุปโภคอาคารศอ.",
+                    "bodyContent": {
+                      "embeddedURL": {
+                        "method": "GET",
+                        "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/eba5ad60-c765-11eb-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-1y,to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%A7%E0%B8%B1%E0%B8%AA%E0%B8%94%E0%B8%B8%E0%B8%AA%E0%B8%B4%E0%B9%89%E0%B9%80%E0%B8%9B%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%87,viewMode:view)&hide-filter-bar=true"
+                      }
+                    },
+                    "footer": "ข้อมูลจาก BESS ศอ."
+                  },
+                  "iconURL": {
+                    "method": "GET",
+                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/booklocation.png"
+                  },
+                  "name": "ภาควิชาสัตวบาล กำแพงแสน มหาวิทยาลัยเกษตรศาสตร์",
+                  "position": {
+                    "lat": 14.024320055015709,
+                    "lng": 99.9682496119231
+                  }
+                }
+              ],
+              "name": "ตำแหน่งของตึกภาควิชาต่างๆ"
+            }
+          ],
+          "mapOption": {
+            "center": {
+              "lat": 14.020933058563315,
+              "lng": 99.97120676030538
+            },
+            "zoom": 16
+          },
+          "name": "ตำแหน่งของตึกภาควิชาต่างๆ"
+        }
+      ],
+      "logoURL": {
+        "method": "GET",
+        "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/mortarboard.png"
+      },
+      "name": "education",
+      "tooltip": "education"
+    }
+  ]
+}
