@@ -47,7 +47,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "http://203.185.97.17:3000/d/Eb0N6_Wnz/powermeter-v2?orgId=1&refresh=30s&kiosk"
+                        "url": "https://power-proxy.data-platform.web.meca.in.th/d/Eb0N6_Wnz/powermeter-v2?orgId=1&refresh=30s&kiosk"
                       }
                     },
                     "footer": "ข้อมูลจาก DESS / INO ศอ."
