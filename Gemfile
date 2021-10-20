@@ -13,7 +13,7 @@ source "https://rubygems.org"
 gem "minima", "~> 2.0"
 gem "rubyzip", ">= 1.3.0"
 gem "kramdown", ">= 2.3.1"
-gem "nokogiri", ">= 1.11.4"
+gem "nokogiri", ">= 1.12.5"
 gem "addressable", ">= 2.8.0"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
