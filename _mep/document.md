@@ -173,13 +173,16 @@
   ```
 
 # Iterator
+เมื่อต้องจัดการกับข้อมูลที่เป็น Array ระบบของเราก็มีบริการรองรับการใช้งานของผู้ใช้ ที่ช่วยจัดการข้อมูลที่เป็น Array ที่ส่งมาจากที่ใดก็ตาม โดยจะนำค่า Payload ที่ส่งมามาจัดการต่อใน task.iterator
+
+โดยในตัวอย่างนี้ จะจำลองการส่งข้อมูลสภาพอากาศแต่ละเมือง โดยใช้ Weather API และส่งไปที่ MEp
 
 เขียนโปรแกรม Call Weather API และนำค่า Payload Response ส่งไปที่ Endpoint โดยรับค่าที่ได้มาปรับแต่งให้เป็นรูปแบบ Jinja Template
 
-### Call Weather API
+### ตัวอย่างการ Call Weather API
 [Weather API](https://api.openweathermap.org/data/2.5/find?lat=13.764968&lon=100.538245&cnt=10&appid=f47eeabecaa43594079886ab0fcd1508&units=metric)
 
-Payload Response
+### ตัวอย่าง Payload Response
 ```json
 {
   "message": "accurate",
@@ -572,20 +575,9 @@ Payload Response
 }
 ```
 
-### Jinja Template.
-
-```jinja
-{
-  "at": "{{templateVariable.datetimeISOString}}",
-  "city": "{{name}}",
-  "temperature": {{main.temp}},
-  "humidity": {{main.humidity}}
-}
-```
-
 จากตัวอย่าง payload response key ที่ต้องการใช้คือ `list` ซึ่งเป็น array ต้องสร้าง end-point เพื่อนำค่าที่อยู่ใน list มาจัดการให้อยู่ในรูปแบบ jinja template
 
-### โปรแกรมที่ใช้ส่งค่าไปที่ Endpoint ในตัวอย่างจะใช้ NodeJS ในการส่งข้อมูล
+### ตัวอย่างการเขียนโปรแกรมที่ใช้ส่งค่าไปที่ Endpoint ในตัวอย่างจะใช้ NodeJS ในการส่งข้อมูลไปยัง MEp
 
 * ติดตั้ง Module
 
@@ -633,7 +625,7 @@ Payload Response
     }, 8.64e+7)
   ```
 
-### สร้าง Endpoint เพื่อรับข้อมูล
+### ตัวอย่างการสร้าง Endpoint ใน MEp เพื่อรับข้อมูล
 
 * คลิกไอคอนด้านขวามือของ `Group 1` > เลือก `task.iterator`
 ![alt text](./images/iteratorJinja/1.png 'End-Point Form')
@@ -665,6 +657,7 @@ Payload Response
       "humidity": {{args.0.main.humidity}}
     }
     ```
+
 * ในหน้า `End-Point` จะพบกับ end-point ที่สร้าง `mep-service:demo:endpoints:iteratorJinja` กดเข้าไป จะพบกับหน้า `End-Point Detail` ตรวจสอบ end-point ที่สร้าง
   * Request History (Request ที่ส่งมาจาก NodeJS)
   ![alt text](./images/iteratorJinja/5.png 'Request History')
@@ -675,7 +668,7 @@ Payload Response
 
 เขียนโปรแกรม ดึงค่า Free memory ในคอมพิวเตอร์ โดยใช้ command `free -m` และส่งไปที่ Endpoint โดยรับค่าที่ได้ มาหาค่าเฉลี่ยของ Free memory ในทุกทุก 5 นาที และแสดงผลออกมาทาง Log
 
-### โปรแกรมที่ใช้ส่งค่าไปที่ Endpoint ในตัวอย่างจะใช้ NodeJS ในการส่งข้อมูล
+### ตัวอย่างการเขียนโปรแกรมที่ใช้ส่งค่าไปที่ Endpoint ในตัวอย่างจะใช้ NodeJS ในการส่งข้อมูลไปยัง MEp
 
 * ติดตั้ง Module
 
@@ -736,7 +729,8 @@ Payload Response
     }, 8.64e+7)
   })
   ```
-### สร้าง Endpoint เพื่อรับข้อมูล
+
+### ตัวอย่างการสร้าง Endpoint ใน MEp เพื่อรับข้อมูล
 
 * คลิกไอคอนด้านขวามือของ `Group 1` > เลือก `task.windowAggregator`
 ![alt text](./images/windowAggregatorLogger/1.png 'End-Point Form')
@@ -748,7 +742,7 @@ Payload Response
   |---|---|
   |__Data Type__|  |
   |__Key name__| Key ของ task.windowAggragator ตัวอย่าง `free_mem` |
-  |__Value__|  Value ของ task.windowAggragator ตัวอย่าง `{{paylaod.free}}` ได้มาจาก payload response) |
+  |__Value__|  Value ของ task.windowAggragator ตัวอย่าง `{{paylaod.free}}` ได้มาจาก payload response |
   |__End of Task__||
   |__By__| สิ่งที่ให้ task ทำงาน ตัวอย่าง `timeout` |
   |__Operation__| ตัวดำเนินการ ตัวอย่าง `eq` (Equal) |
@@ -759,10 +753,8 @@ Payload Response
 * คลิกไอคอนด้านขวามือของ `windowAggregator` > เลือก `Add Group`
 ![alt text](./images/windowAggregatorLogger/3.png 'Add Group')
 
-* คลิกไอคอนด้านขวามือของ `Group 1` > เลือก `task.logger`
+* คลิกไอคอนด้านขวามือของ `Group 1` > เลือก `task.logger` > กด Create
 ![alt text](./images/windowAggregatorLogger/4.png 'task.logger')
-
-* กรอกข้อมูล > กด Create
 
 * ในหน้า `End-Point` จะพบกับ end-point ที่สร้าง `mep-service:demo:endpoints:windowAggregatorLogger` กดเข้าไป จะพบกับหน้า `End-Point Detail` ตรวจสอบ end-point ที่สร้าง
   * Request History (Request ที่ส่งมาจาก NodeJS)
@@ -772,14 +764,19 @@ Payload Response
 
 # Binary File S3
 
+เมื่อต้องการเก็บข้อมูลต่างๆ ไว้ใน Bucket S3 ทางระบบ MEp มีบริการที่ผู้ใช้สามารถส่งข้อมูลไปเก็บไว้ที่ S3 โดยใช้ task.iterator
+
+โดยในตัวอย่างนี้ จะจำลองการส่งข้อมูลไฟล์ภาพ ส่งไปยัง MEp และให้ MEp ส่งข้อมูลภาพไฟเก็บไว้ยัง S3
+
 เขียนโปรแกรม ส่งรูปภาพไปที่ Endpoint โดยรับภาพที่ส่งมาไปเก็บไว้ที่ S3
 
-### โปรแกรมที่ใช้ส่งค่าไปที่ Endpoint ในตัวอย่างจะใช้ NodeJS ในการส่งข้อมูล
+### ตัวอย่างการเขียนโปรแกรมที่ใช้ส่งค่าไปที่ Endpoint ในตัวอย่างจะใช้ NodeJS ในการส่งข้อมูลไปยัง MEp
 
 * ติดตั้ง Module
 
   ```
   npm install --save request
+  npm install --save fs
   ```
 
 * สร้างไฟล์ `example-4.js` แล้วเขียนโปรแกรมตามตัวอย่าง
@@ -814,12 +811,12 @@ Payload Response
   })
   ```
 
-### สร้าง Endpoint เพื่อรับข้อมูล
+### ตัวอย่างการสร้าง Endpoint ใน MEp เพื่อรับข้อมูล
 
 * คลิกไอคอนด้านขวามือของ `Group 1` > เลือก `task.s3Keeper`
 ![alt text](./images/s3Keeper/1.png 'End-Point Form')
 
-* กรอกข้อมูลในฟอร์ม
+* กรอกข้อมูลในฟอร์ม > กด Create
 ![alt text](./images/s3Keeper/2.png 'End-Point Form')
 
   |   |   |
@@ -833,8 +830,6 @@ Payload Response
   |__Body__| ตัวอย่าง `multipart` |
   |__Bucket__| ตัวอย่าง `botdemo` |
   |__Key Prefix__| ตัวอย่าง `CCTV_Charleston/{{templateVariable.datetimeISOString}}.jpg`|
-
-* กรอกข้อมูล > กด Create
 
 * ในหน้า `End-Point` จะพบกับ end-point ที่สร้าง `mep-service:demo:endpoints:s3Keeper` กดเข้าไป จะพบกับหน้า `End-Point Detail` ตรวจสอบ end-point ที่สร้าง
   * Request History (Request ที่ส่งมาจาก NodeJS)
