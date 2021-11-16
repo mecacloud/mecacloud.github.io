@@ -18,10 +18,10 @@ layout: default
   * [{{ install.title }}]({{ install.url }})
 {% endfor %}
 
-<!-- ## Tutorial
+## Tutorial
 {% for tutorial in site.tutorials %}
   * [{{ tutorial.title }}]({{ tutorial.url }})
-{% endfor %} -->
+{% endfor %}
 
 ## Concept
 {% for concept in site.concepts %}
