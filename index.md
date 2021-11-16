@@ -22,9 +22,11 @@ layout: default
 {% for tutorial in site.tutorials %}
   * [{{ tutorial.title }}]({{ tutorial.url }})
 {% endfor %}
+{% for mep in site.mep %}
+  * [{{ mep.title }}]({{ mep.url }})
+{% endfor %}
 
 ## Concept
 {% for concept in site.concepts %}
   * [{{ concept.title }}]({{ concept.url }})
 {% endfor %}
-

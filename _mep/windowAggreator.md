@@ -1,4 +1,9 @@
-# Window Aggregator
+---
+layout: tutorial
+title: Window Aggregator and Logger
+---
+
+# Window Aggregator and Logger
 
 เขียนโปรแกรม ดึงค่า Free memory ในคอมพิวเตอร์ โดยใช้ command `free -m` และส่งไปที่ Endpoint โดยรับค่าที่ได้ มาหาค่าเฉลี่ยของ Free memory ในทุกทุก 5 นาที และแสดงผลออกมาทาง Log
 

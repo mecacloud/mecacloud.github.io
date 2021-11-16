@@ -1,3 +1,8 @@
+---
+layout: tutorial
+title: Binary File S3
+---
+
 # Binary File S3
 
 เมื่อต้องการเก็บข้อมูลต่างๆ ไว้ใน Bucket S3 ทางระบบ MEp มีบริการที่ผู้ใช้สามารถส่งข้อมูลไปเก็บไว้ที่ S3 โดยใช้ task.iterator
