@@ -92,6 +92,12 @@ title: Jinja and Template
 
 * กรอกข้อมูลตามแบบฟอร์มที่กำหนด
 ![alt text](./images/jinjaTemplate/2.png 'End-Point Form')
+
+  |**Container**|my-awesome-site|
+  |**Image Name**|ridnarong/my-awesome-site:v1|
+  |*Ports*
+  |**Name**|**Port**|
+  |http|80|
   
   |__Name__|  ชื่อ End-Point  |
   |__Authentication__ ||
