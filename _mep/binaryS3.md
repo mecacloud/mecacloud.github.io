@@ -60,15 +60,15 @@ title: Binary File S3
 * กรอกข้อมูลในฟอร์ม > กด Create
 ![alt text](./images/s3Keeper/2.png 'End-Point Form')
 
-  |**CLIEND OPTION**|  |
-  |**AWS Access Key ID**| ตัวอย่าง `VYWLAU8OREV2DXRDGVXP` |
-  |**AWS Secret Access Key**| ตัวอย่าง `halOmKuigFYlf6lmE3JCv4crzxwoMFmcHV1BEArE` |
-  |**Use SSL**| `TRUE` |
-  |**End-Point URL**| ตัวอย่าง `https://s3.meca.in.th` |
-  |**PUT OBJECT OPTION**||
-  |**Body**| ตัวอย่าง `multipart` |
-  |**Bucket**| ตัวอย่าง `botdemo` |
-  |**Key Prefix**| ตัวอย่าง `CCTV_Charleston/{{templateVariable.datetimeISOString}}.jpg`|
+  |**CLIEND OPTION**
+  |**AWS Access Key ID**|ตัวอย่าง `VYWLAU8OREV2DXRDGVXP` |
+  |**AWS Secret Access Key**|ตัวอย่าง `halOmKuigFYlf6lmE3JCv4crzxwoMFmcHV1BEArE`|
+  |**Use SSL**|`TRUE`|
+  |**End-Point URL**|ตัวอย่าง `https://s3.meca.in.th`|
+  |**PUT OBJECT OPTION**
+  |**Body**|ตัวอย่าง `multipart`|
+  |**Bucket**|ตัวอย่าง `botdemo`|
+  |**Key Prefix**|ตัวอย่าง `CCTV_Charleston/{{templateVariable.datetimeISOString}}.jpg`|
   <br />
 
 * ในหน้า `End-Point` จะพบกับ end-point ที่สร้าง `mep-service:demo:endpoints:s3Keeper` กดเข้าไป จะพบกับหน้า `End-Point Detail` ตรวจสอบ end-point ที่สร้าง
