@@ -76,13 +76,13 @@ title: Jinja and Template
 ```
 
 ตัวแปรที่เรียกใช้ได้ใน Template
-  | __ตัวแปร__  | __คำอธิบาย__   |
-  |---|---|
-  | `templateVariable` |  ตัวแปรของ Template เก็บค่าที่ช่วยในการใช้งาน เช่น datetimeISOString เก็บค่าวัน เวลาปัจจุบันในรูปแบบของ ISO String  |
-  | `payload` |  ค่าที่ได้รับจาก Request ในส่วนที่เป็น Payload  |
-  | `headers` |  ค่าที่ได้รับจาก Request ในส่วนที่เป็น Header  |
-  | `params` |  ค่าที่ได้รับจาก Request ในส่วนที่เป็น URL Parameter  |
-  | `args` |  Array ของค่าที่ได้รับจาก Task ก่อนหน้า  |
+<br />
+  |**ตัวแปร**|**คำอธิบาย**|
+  | **templateVariable** |  ตัวแปรของ Template เก็บค่าที่ช่วยในการใช้งาน เช่น datetimeISOString เก็บค่าวัน เวลาปัจจุบันในรูปแบบของ ISO String  |
+  | **payload** |  ค่าที่ได้รับจาก Request ในส่วนที่เป็น Payload  |
+  | **headers** |  ค่าที่ได้รับจาก Request ในส่วนที่เป็น Header  |
+  | **params** |  ค่าที่ได้รับจาก Request ในส่วนที่เป็น URL Parameter  |
+  | **args** |  Array ของค่าที่ได้รับจาก Task ก่อนหน้า  |
 
 
 ### ตัวอย่างการสร้าง Endpoint ใน MEp เพื่อรับข้อมูล
