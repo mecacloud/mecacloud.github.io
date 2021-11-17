@@ -464,14 +464,13 @@ title: Iterator
 * กรอกข้อมูลในฟอร์ม
 ![alt text](./images/iteratorJinja/2.png 'End-Point Form')
 
-  |   |   |
-  |---|---|
-  |__Each__|  การเข้าถึง payload ที่เป็น array  |
-  ```jinja
-{% raw %}
-  {{payload.list|tojson}}
-{% endraw %}
-  ```
+  __Earch__ - การเข้าถึง payload ที่เป็น array
+
+    ```jinja
+    {% raw %}
+      {{payload.list|tojson}}
+    {% endraw %}
+    ```
 
 * คลิกไอคอนด้านขวามือของ `iterator` > เลือก `Add Group`
 ![alt text](./images/iteratorJinja/3.png 'Add Group')

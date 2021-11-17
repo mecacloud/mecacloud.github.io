@@ -103,6 +103,7 @@ title: Jinja and Template
   | __Parse Request__ ||
   | __Error Handle__ |  กรณีเกิด Error กับ end-point ให้ดำเนินการต่ออย่างไร (bytes, rise, drop)|
   |__Processors (Tasks)__| Task ของ end-point ที่ใช้ในการจัดการข้อมูล|
+  <br />
 
 * คลิกไอคอนด้านขวามือของ `Group 1` > เลือก `task.jinja`
 ![alt text](./images/jinjaTemplate/4.png 'End-Point Form')
@@ -112,13 +113,13 @@ title: Jinja and Template
   * ในการอ้างอิงถึง payload response จะใช้ `payload`
 
     ```jinja
-{% raw %}
-    {
-      "at": "{{templateVariable.datetimeISOString}}",
-      "temperature": {{payload.main.temp}},
-      "humidity": {{payload.main.humidity}}
-    }
-{% endraw %}
+    {% raw %}
+      {
+        "at": "{{templateVariable.datetimeISOString}}",
+        "temperature": {{payload.main.temp}},
+        "humidity": {{payload.main.humidity}}
+      }
+    {% endraw %}
     ```
 
 * ในหน้า `End-Point` จะพบกับ end-point ที่สร้าง `mep-service:demo:endpoints:jinjaTemplate` กดเข้าไป จะพบกับหน้า `End-Point Detail` ตรวจสอบ end-point ที่สร้าง
