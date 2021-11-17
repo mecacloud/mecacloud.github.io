@@ -93,20 +93,20 @@ title: Jinja and Template
 * กรอกข้อมูลตามแบบฟอร์มที่กำหนด
 ![alt text](./images/jinjaTemplate/2.png 'End-Point Form')
 
-  |**Container**|my-awesome-site|
+  |**Name**|my-awesome-site|
   |**Image Name**|ridnarong/my-awesome-site:v1|
   |*Ports*
   |**Name**|**Port**|
   |http|80|
   
-  |__Name__|  ชื่อ End-Point  |
-  |__Authentication__ ||
-  |__Methods__| รูปแบบการ Authentication|
-  |__Key__| username|
-  |__Secret__| password หรือ secret key|
-  |__Parse Request__||
-  |__Error Handle__|  กรณีเกิด Error กับ end-point ให้ดำเนินการต่ออย่างไร (bytes, rise, drop)|
-  |__Processors (Tasks)__| Task ของ end-point ที่ใช้ในการจัดการข้อมูล|
+  |**Name**|  ชื่อ End-Point  |
+  |**Authentication** ||
+  |**Methods**| รูปแบบการ Authentication|
+  |**Key**| username|
+  |**Secret**| password หรือ secret key|
+  |**Parse Request**||
+  |**Error Handle**|  กรณีเกิด Error กับ end-point ให้ดำเนินการต่ออย่างไร (bytes, rise, drop)|
+  |**Processors (Tasks)**| Task ของ end-point ที่ใช้ในการจัดการข้อมูล|
   <br />
 
 * คลิกไอคอนด้านขวามือของ `Group 1` > เลือก `task.jinja`
