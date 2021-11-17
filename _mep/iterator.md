@@ -468,7 +468,9 @@ title: Iterator
   |---|---|
   |__Each__|  การเข้าถึง payload ที่เป็น array  |
   ```jinja
+{% raw %}
   {{payload.list|tojson}}
+{% endraw %}
   ```
 
 * คลิกไอคอนด้านขวามือของ `iterator` > เลือก `Add Group`
@@ -481,12 +483,14 @@ title: Iterator
   * ในการอ้างอิงถึง iterator จะใช้ `args` ลำดับการทำงานที่ 0 หมายถึง task ล่าสุด และลำดับการทำงานจะเพิ่มขึ้นตาม task ก่อนหน้า
 
     ```jinja
+    {% raw %}
     {
       "at": "{{templateVariable.datetimeISOString}}",
       "city": "{{args.0.name}}",
       "temperature": {{args.0.main.temp}},
       "humidity": {{args.0.main.humidity}}
     }
+    {% endraw %}
     ```
 
 * ในหน้า `End-Point` จะพบกับ end-point ที่สร้าง `mep-service:demo:endpoints:iteratorJinja` กดเข้าไป จะพบกับหน้า `End-Point Detail` ตรวจสอบ end-point ที่สร้าง

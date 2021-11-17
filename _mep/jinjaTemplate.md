@@ -63,14 +63,16 @@ title: Jinja and Template
 
 ### ตัวอย่างการเขียน Jinja Template เพื่อแปลงข้อมูลให้ได้รูปแบบตามต้องการ 
 
-โดยตัวแปรที่อยู่ภายในเครื่องหมาย `{{ }}` จะถูกแทนที่ด้วยค่าของตัวแปร
+โดยตัวแปรที่อยู่ภายในเครื่องหมาย {% raw %}`{{ }}`{% endraw %} จะถูกแทนที่ด้วยค่าของตัวแปร
 
 ```jinja
+{% raw %}
 {
   "at": "{{templateVariable.datetimeISOString}}",
   "temperature": {{payload.main.temp}},
   "humidity": {{payload.main.humidity}}
 }
+{% endraw %}
 ```
 
 ตัวแปรที่เรียกใช้ได้ใน Template
@@ -110,11 +112,13 @@ title: Jinja and Template
   * ในการอ้างอิงถึง payload response จะใช้ `payload`
 
     ```jinja
+{% raw %}
     {
       "at": "{{templateVariable.datetimeISOString}}",
       "temperature": {{payload.main.temp}},
       "humidity": {{payload.main.humidity}}
     }
+{% endraw %}
     ```
 
 * ในหน้า `End-Point` จะพบกับ end-point ที่สร้าง `mep-service:demo:endpoints:jinjaTemplate` กดเข้าไป จะพบกับหน้า `End-Point Detail` ตรวจสอบ end-point ที่สร้าง
