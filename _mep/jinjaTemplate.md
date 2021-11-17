@@ -100,11 +100,11 @@ title: Jinja and Template
   |http|80|
   
   |**Name**|  ชื่อ End-Point  |
-  |**Authentication** ||
+  |**Authentication**
   |**Methods**| รูปแบบการ Authentication|
   |**Key**| username|
   |**Secret**| password หรือ secret key|
-  |**Parse Request**||
+  |**Parse Request**
   |**Error Handle**|  กรณีเกิด Error กับ end-point ให้ดำเนินการต่ออย่างไร (bytes, rise, drop)|
   |**Processors (Tasks)**| Task ของ end-point ที่ใช้ในการจัดการข้อมูล|
   <br />
