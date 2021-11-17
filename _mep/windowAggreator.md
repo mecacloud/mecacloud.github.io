@@ -77,16 +77,15 @@ title: Window Aggregator and Logger
 * กรอกข้อมูลในฟอร์ม
 ![alt text](./images/windowAggregatorLogger/2.png 'End-Point Form')
 
-  |**Data Type**|sdfsdfds|
+  |**Data Type**||
   |**Key name**| Key ของ task.windowAggragator ตัวอย่าง `free_mem` |
   |**Value**|  Value ของ task.windowAggragator ตัวอย่าง {% raw %}`{{paylaod.free}}`{% endraw %} ได้มาจาก payload response |
-  |**End of Task**|asdfasfd|
+  |**End of Task**||
   |**By**| สิ่งที่ให้ task ทำงาน ตัวอย่าง `timeout` |
   |**Operation**| ตัวดำเนินการ ตัวอย่าง `eq` (Equal) |
   |**Hash Key**| Hash Key |
   |**Value**| Value ของ end of task ตัวอย่าง `300` (5 นาที) |
-  |**Return Value**| ผลลัพธ์ที่ถูกส่งออกของ task.windowAggragator ตัวอย่าง `avg` (Average) |
-  <br />
+  |**Return Value**| ผลลัพธ์ที่ถูกส่งออกของ task.windowAggragator ตัวอย่าง `avg` (Average) |<br />
 
 * คลิกไอคอนด้านขวามือของ `windowAggregator` > เลือก `Add Group`
 ![alt text](./images/windowAggregatorLogger/3.png 'Add Group')
