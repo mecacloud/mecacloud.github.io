@@ -87,8 +87,6 @@ title: Window Aggregator and Logger
   |**Value**|Value ของ end of task ตัวอย่าง `300` (5 นาที) |
   |**Return Value**|ผลลัพธ์ที่ถูกส่งออกของ task.windowAggragator ตัวอย่าง `avg` (Average) |
 
-<br />
-
 * คลิกไอคอนด้านขวามือของ `windowAggregator` > เลือก `Add Group`
 ![alt text](./images/windowAggregatorLogger/3.png 'Add Group')
 
