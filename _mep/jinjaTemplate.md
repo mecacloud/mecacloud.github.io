@@ -102,7 +102,6 @@ title: Jinja and Template
   |**Parse Request**
   |**Error Handle**|กรณีเกิด Error กับ end-point ให้ดำเนินการต่ออย่างไร (bytes, rise, drop)|
   |**Processors**| Task ของ end-point ที่ใช้ในการจัดการข้อมูล|
-  <br />
 
 * คลิกไอคอนด้านขวามือของ `Group 1` > เลือก `task.jinja`
 ![alt text](./images/jinjaTemplate/4.png 'End-Point Form')
