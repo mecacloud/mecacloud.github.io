@@ -99,13 +99,13 @@ title: Jinja and Template
   |**Name**|**Port**|
   |http|80|
   
-  |**Name**|  ชื่อ End-Point  |
-  |**Authentication**
-  |**Methods**| รูปแบบการ Authentication|
-  |**Key**| username|
-  |**Secret**| password หรือ secret key|
-  |**Parse Request**
-  |**Error Handle**|  กรณีเกิด Error กับ end-point ให้ดำเนินการต่ออย่างไร (bytes, rise, drop)|
+  |**Name**|ชื่อ End-Point|
+  <!-- |**Authentication** -->
+  |**Methods**|รูปแบบการ Authentication|
+  |**Key**|username|
+  |**Secret**|password หรือ secret key|
+  <!-- |**Parse Request** -->
+  |**Error Handle**|กรณีเกิด Error กับ end-point ให้ดำเนินการต่ออย่างไร (bytes, rise, drop)|
   |**Processors (Tasks)**| Task ของ end-point ที่ใช้ในการจัดการข้อมูล|
   <br />
 
