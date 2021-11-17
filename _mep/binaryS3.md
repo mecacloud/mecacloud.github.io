@@ -69,7 +69,8 @@ title: Binary File S3
   |**Body**|ตัวอย่าง `multipart`|
   |**Bucket**|ตัวอย่าง `botdemo`|
   |**Key Prefix**|ตัวอย่าง `CCTV_Charleston/{{templateVariable.datetimeISOString}}.jpg`|
-  
+
+
 * ในหน้า `End-Point` จะพบกับ end-point ที่สร้าง `mep-service:demo:endpoints:s3Keeper` กดเข้าไป จะพบกับหน้า `End-Point Detail` ตรวจสอบ end-point ที่สร้าง
   * Request History (Request ที่ส่งมาจาก NodeJS)
   ![alt text](./images/s3Keeper/3.png 'Request History')
