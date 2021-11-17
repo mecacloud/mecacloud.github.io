@@ -95,13 +95,13 @@ title: Jinja and Template
 ![alt text](./images/jinjaTemplate/2.png 'End-Point Form')
   
   |**Name**|ชื่อ End-Point|
-  <!-- |**Authentication** -->
+  |**Authentication**
   |**Methods**|รูปแบบการ Authentication|
   |**Key**|username|
   |**Secret**|password หรือ secret key|
-  <!-- |**Parse Request** -->
+  |**Parse Request**
   |**Error Handle**|กรณีเกิด Error กับ end-point ให้ดำเนินการต่ออย่างไร (bytes, rise, drop)|
-  |**Processors (Tasks)**| Task ของ end-point ที่ใช้ในการจัดการข้อมูล|
+  |**Processors**| Task ของ end-point ที่ใช้ในการจัดการข้อมูล|
   <br />
 
 * คลิกไอคอนด้านขวามือของ `Group 1` > เลือก `task.jinja`
