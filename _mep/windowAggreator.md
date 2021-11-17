@@ -77,10 +77,10 @@ title: Window Aggregator and Logger
 * กรอกข้อมูลในฟอร์ม
 ![alt text](./images/windowAggregatorLogger/2.png 'End-Point Form')
 
-  |**Data Type**||
+  |**Data Type**|sdfsdfds|
   |**Key name**| Key ของ task.windowAggragator ตัวอย่าง `free_mem` |
   |**Value**|  Value ของ task.windowAggragator ตัวอย่าง `{{paylaod.free}}` ได้มาจาก payload response |
-  |**End of Task**||
+  |**End of Task**|asdfasfd|
   |**By**| สิ่งที่ให้ task ทำงาน ตัวอย่าง `timeout` |
   |**Operation**| ตัวดำเนินการ ตัวอย่าง `eq` (Equal) |
   |**Hash Key**| Hash Key |
