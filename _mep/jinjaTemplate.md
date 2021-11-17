@@ -92,16 +92,14 @@ title: Jinja and Template
 
 * กรอกข้อมูลตามแบบฟอร์มที่กำหนด
 ![alt text](./images/jinjaTemplate/2.png 'End-Point Form')
-
-  |   |   |
-  |---|---|
+  
   |__Name__|  ชื่อ End-Point  |
-  | __Authentication__ ||
+  |__Authentication__ ||
   |__Methods__| รูปแบบการ Authentication|
   |__Key__| username|
   |__Secret__| password หรือ secret key|
-  | __Parse Request__ ||
-  | __Error Handle__ |  กรณีเกิด Error กับ end-point ให้ดำเนินการต่ออย่างไร (bytes, rise, drop)|
+  |__Parse Request__||
+  |__Error Handle__|  กรณีเกิด Error กับ end-point ให้ดำเนินการต่ออย่างไร (bytes, rise, drop)|
   |__Processors (Tasks)__| Task ของ end-point ที่ใช้ในการจัดการข้อมูล|
   <br />
 
