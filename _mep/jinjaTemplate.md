@@ -77,6 +77,7 @@ title: Jinja and Template
 
 ตัวแปรที่เรียกใช้ได้ใน Template
 <br />
+
   |**ตัวแปร**|**คำอธิบาย**|
   | **templateVariable** |  ตัวแปรของ Template เก็บค่าที่ช่วยในการใช้งาน เช่น datetimeISOString เก็บค่าวัน เวลาปัจจุบันในรูปแบบของ ISO String  |
   | **payload** |  ค่าที่ได้รับจาก Request ในส่วนที่เป็น Payload  |
