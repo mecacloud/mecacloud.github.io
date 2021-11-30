@@ -3,8 +3,6 @@ layout: tutorial
 title: Window Aggregator and Logger
 ---
 
-# Window Aggregator and Logger
-
 เขียนโปรแกรม ดึงค่า Free memory ในคอมพิวเตอร์ โดยใช้ command `free -m` และส่งไปที่ Endpoint โดยรับค่าที่ได้ มาหาค่าเฉลี่ยของ Free memory ในทุกทุก 5 นาที และแสดงผลออกมาทาง Log
 
 ### ตัวอย่างการเขียนโปรแกรมที่ใช้ส่งค่าไปที่ Endpoint ในตัวอย่างจะใช้ NodeJS ในการส่งข้อมูลไปยัง MEp
@@ -87,7 +85,8 @@ title: Window Aggregator and Logger
   |**Value**|Value ของ end of task ตัวอย่าง `300` (5 นาที) |
   |**Return Value**|ผลลัพธ์ที่ถูกส่งออกของ task.windowAggragator ตัวอย่าง `avg` (Average) |
 
-<br />
+### ตรวจสอบการทำงานของ Endpoint
+
 * คลิกไอคอนด้านขวามือของ `windowAggregator` > เลือก `Add Group`
 ![alt text](./images/windowAggregatorLogger/3.png 'Add Group')
 

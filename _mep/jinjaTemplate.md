@@ -1,9 +1,8 @@
 ---
 layout: tutorial
-title: Jinja and Template
+title: Jinja Template and HTTP Request
 ---
 
-# Template and Jinja
 บ่อยครั้ง ที่ข้อมูลที่ได้รับ จากอุปกรณ์ หรือระบบอื่น มีรูปแบบที่ไม่เข้ากันได้กับ ระบบที่ต้องการรับข้อมูล จึงมีความต้องการที่จะเขียนโปรแกรมเพื่อเปลี่ยนแปลงรูปแบบของข้อมูลที่ได้รับ ระบบ MEp มาพร้อมกับ ระบบ Template ที่จะช่วยให้การเขียน การตั้งค่าสามารถใช้ Jinja Template Language เพื่อดึงข้อมูลจาก Payload ที่ได้รับ มาใช้ได้
 
 โดยในตัวอย่างนี้ จะจำลองการส่งข้อมูลสภาพอากาศ โดยใช้ Weather API และส่งไปที่ MEp
@@ -65,15 +64,15 @@ title: Jinja and Template
 
 โดยตัวแปรที่อยู่ภายในเครื่องหมาย {% raw %}`{{ }}`{% endraw %} จะถูกแทนที่ด้วยค่าของตัวแปร
 
-```jinja
 {% raw %}
+```jinja
 {
   "at": "{{templateVariable.datetimeISOString}}",
   "temperature": {{payload.main.temp}},
   "humidity": {{payload.main.humidity}}
 }
-{% endraw %}
 ```
+{% endraw %}
 
 ตัวแปรที่เรียกใช้ได้ใน Template
 <br />
@@ -112,27 +111,16 @@ title: Jinja and Template
   * `templateVariable` เป็นตัวแปรในระบบที่สามารถเรียกใช้ได้ทันที ตัวอย่าง `templateVariable.datetimeISOString` ผลลัพธ์ที่ได้คือ _2021-11-09T09:29:49.305107+00:00_
   * ในการอ้างอิงถึง payload response จะใช้ `payload`
 
+{% raw %}
     ```jinja
-    {% raw %}
       {
         "at": "{{templateVariable.datetimeISOString}}",
         "temperature": {{payload.main.temp}},
         "humidity": {{payload.main.humidity}}
       }
-    {% endraw %}
     ```
+{% endraw %}
 
-* ในหน้า `End-Point` จะพบกับ end-point ที่สร้าง `mep-service:demo:endpoints:jinjaTemplate` กดเข้าไป จะพบกับหน้า `End-Point Detail` ตรวจสอบ end-point ที่สร้าง
-  * Request History (Request ที่ส่งมาจาก NodeJS)
-  ![alt text](./images/jinjaTemplate/5.png 'Request History')
-  * Request Result (ผลลัพธ์ของ task.jinja)
-  ![alt text](./images/jinjaTemplate/6.png 'Request Result')
-  * กรณีเกิด Exception ขึ้นอยู่ที่การ Config ของ Error Handle ตัวอย่างเลือก Rise เพื่อให้แสดง Error ที่เกิดขึ้น
-  ![alt text](./images/jinjaTemplate/7.png 'Exception')
-  * Logger (แสดง Log ของ task.logger)
-  ![alt text](./images/jinjaTemplate/8.png 'Logger')
-  
-  
 ### ตัวอย่างการเขียนโปรแกรมที่ใช้ส่งค่าไปที่ Endpoint ในตัวอย่างจะใช้ NodeJS ในการส่งข้อมูลไปยัง MEp
 
 * ติดตั้ง Module
@@ -181,3 +169,17 @@ title: Jinja and Template
       clearInterval(timerId)
     }, 8.64e+7)
   ```
+
+  ### ตรวจสอบการทำงานของ Endpoint
+  
+* ในหน้า `End-Point` จะพบกับ end-point ที่สร้าง `mep-service:demo:endpoints:jinjaTemplate` กดเข้าไป จะพบกับหน้า `End-Point Detail` ตรวจสอบ end-point ที่สร้าง
+  * Request History (Request ที่ส่งมาจาก NodeJS)
+  ![alt text](./images/jinjaTemplate/5.png 'Request History')
+  * Request Result (ผลลัพธ์ของ task.jinja)
+  ![alt text](./images/jinjaTemplate/6.png 'Request Result')
+  * กรณีเกิด Exception ขึ้นอยู่ที่การ Config ของ Error Handle ตัวอย่างเลือก Rise เพื่อให้แสดง Error ที่เกิดขึ้น
+  ![alt text](./images/jinjaTemplate/7.png 'Exception')
+  * Logger (แสดง Log ของ task.logger)
+  ![alt text](./images/jinjaTemplate/8.png 'Logger')
+  
+  

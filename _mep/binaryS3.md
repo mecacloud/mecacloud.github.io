@@ -3,9 +3,7 @@ layout: tutorial
 title: Binary File S3
 ---
 
-# Binary File S3
-
-เมื่อต้องการเก็บข้อมูลต่างๆ ไว้ใน Bucket S3 ทางระบบ MEp มีบริการที่ผู้ใช้สามารถส่งข้อมูลไปเก็บไว้ที่ S3 โดยใช้ task.iterator
+เมื่อต้องการเก็บข้อมูลต่างๆ ไว้ใน Bucket S3 ทางระบบ MEp มีบริการที่ผู้ใช้สามารถส่งข้อมูลไปเก็บไว้ที่ S3 โดยใช้ task.s3Keeper
 
 โดยในตัวอย่างนี้ จะจำลองการส่งข้อมูลไฟล์ภาพ ส่งไปยัง MEp และให้ MEp ส่งข้อมูลภาพไฟเก็บไว้ยัง S3
 
@@ -52,13 +50,15 @@ title: Binary File S3
   })
   ```
 
-### ตัวอย่างการสร้าง Endpoint ใน MEp เพื่อรับข้อมูล
+### การสร้าง Endpoint ใน MEp เพื่อรับข้อมูล
 
 * คลิกไอคอนด้านขวามือของ `Group 1` > เลือก `task.s3Keeper`
 ![alt text](./images/s3Keeper/1.png 'End-Point Form')
 
 * กรอกข้อมูลในฟอร์ม > กด Create
 ![alt text](./images/s3Keeper/2.png 'End-Point Form')
+
+### ตัวอย่างการกรอกแบบฟอร์ม
 
   |**CLIEND OPTION**
   |**AWS Access Key ID**|ตัวอย่าง `VYWLAU8OREV2DXRDGVXP` |
@@ -68,13 +68,14 @@ title: Binary File S3
   |**PUT OBJECT OPTION**
   |**Body**|ตัวอย่าง `multipart`|
   |**Bucket**|ตัวอย่าง `botdemo`|
-  |**Key Prefix**|ตัวอย่าง `CCTV_Charleston/{{templateVariable.datetimeISOString}}.jpg`|
+  |**Key Prefix**|ตัวอย่าง {% raw %}`CCTV_Charleston/{{templateVariable.datetimeISOString}}.jpg`{% endraw %}|
 
-<br />
-* ในหน้า `End-Point` จะพบกับ end-point ที่สร้าง `mep-service:demo:endpoints:s3Keeper` กดเข้าไป จะพบกับหน้า `End-Point Detail` ตรวจสอบ end-point ที่สร้าง
+### ตรวจสอบการทำงานของ Endpoint
+
+* ตรวจสอบในหน้า `End-Point` จะพบกับ end-point ที่สร้าง `mep-service:demo:endpoints:s3Keeper` กดเข้าไป จะพบกับหน้า `End-Point Detail` ตรวจสอบ end-point ที่สร้าง
   * Request History (Request ที่ส่งมาจาก NodeJS)
   ![alt text](./images/s3Keeper/3.png 'Request History')
   * Request Result (ผลลัพธ์ของ task.s3Keeper)
   ![alt text](./images/s3Keeper/4.png 'Request Result')
-  * ตรวจสอบด้วย S3 Browser (ข้อมูลส่งมาจาก End-Point)
+* ตรวจสอบด้วย S3 Browser (ข้อมูลส่งมาจาก End-Point)
   ![alt text](./images/s3Keeper/5.png 's3 Browser')
