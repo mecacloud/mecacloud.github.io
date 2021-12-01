@@ -24,8 +24,8 @@ url: "https://docs.meca.in.th" # the base hostname & protocol for your site, e.g
 markdown: kramdown
 theme: jekyll-theme-cayman
 collections:
-  posts:
-    title: Posts
+  mep:
+    title: MEp
     output: true
   tutorials:
     title: Tutorials
