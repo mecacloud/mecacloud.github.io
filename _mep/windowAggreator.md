@@ -77,7 +77,7 @@ title: Window Aggregator and Logger
 
   |**Data Type**
   |**Key name**|Key ของ task.windowAggragator ตัวอย่าง `free_mem` |
-  |**Value**|Value ของ task.windowAggragator ตัวอย่าง {% raw %}`{{paylaod.free}}`{% endraw %} ได้มาจาก payload response |
+  |**Value**|Value ของ task.windowAggragator ตัวอย่าง {% raw %}`{{payload.free}}`{% endraw %} ได้มาจาก payload response |
   |**End of Task**
   |**By**|สิ่งที่ให้ task ทำงาน ตัวอย่าง `timeout`|
   |**Operation**|ตัวดำเนินการ ตัวอย่าง `eq` (Equal)|
