@@ -1,9 +1,9 @@
 ---
 layout: tutorial
-title: Dara Register and Request Service
+title: DARA Register and Request Service
 ---
 
-สำหรับผู้ใช้งานที่ต้องการใช้บริการ Dara Platform ต้องทำการละทะเบียนเพื่อใช้งานบริการต่างๆของ Dara Platform
+สำหรับผู้ใช้งานที่ต้องการใช้บริการ DARA Platform ต้องทำการละทะเบียนเพื่อใช้งานบริการต่างๆของ DARA Platform
 
 ### ตัวอย่างการลงทะเบียนใช้บริการ MEp
 
@@ -11,7 +11,7 @@ title: Dara Register and Request Service
 
   ![alt text](./images/register/1.png 'Keycloak Login')
 
-* ลงทะเบียนโดยคลิก `Register` > กรอก
+* ลงทะเบียนโดยคลิก `Register` > กรอกข้อมูล
   
   ![alt text](./images/register/2.png 'Keycloak Register')
 
@@ -19,15 +19,17 @@ title: Dara Register and Request Service
   
   ![alt text](./images/register/3.png 'Keycloak Register')
 
-* เมื่อกด `Register` ระบบจะทำการ Redirect เข้าสู่หน้าเว็ปไซต์ 
+* เมื่อกด `Register` ระบบจะทำการ Redirect เข้าสู่หน้าเว็บไซต์
   
-  ![alt text](./images/register/4.png 'Dara Platform Home Page')
+  ![alt text](./images/register/4.png 'DARA Platform Home Page')
+
+### ตัวอย่างการขอใช้บริการ MEp
 
 * ที่ Menu Bar ด้านบน คลิกที่ `FIWARE` > `Services`
   
   ![alt text](./images/register/5.png 'Menu Bar')
 
-* เมื่อเข้ามาที่หน้า Fiware Servicesคลิกที่ `Add New Service` (เครื่องหมาย +)
+* เมื่อเข้ามาที่หน้า Fiware Services คลิกที่ `Add New Service` (เครื่องหมาย +)
   
   ![alt text](./images/register/6.png 'New Fiware Service')
 
@@ -35,7 +37,7 @@ title: Dara Register and Request Service
   
   ![alt text](./images/register/7.png ' Servcie Name')
 
-* แท็บ `SERVICE REQUESTS` จะพบกับ Service ที่ขอใช้บริการ แจ้ง Admin หรือรอสักครู่ เพื่อให้ Admin อนุมัติ Service
+* แท็บ `SERVICE REQUESTS` จะปรากฏ Service ที่ขอใช้บริการ กรุณาแจ้ง Admin หรือรอสักครู่ เพื่อให้ Admin อนุมัติ Service
   
   ![alt text](./images/register/8.png 'Service Request')
 
