@@ -99,54 +99,6 @@ title: Iterator
 
 จากตัวอย่าง payload response key ที่ต้องการใช้คือ `list` ซึ่งเป็น array ต้องสร้าง end-point เพื่อนำค่าที่อยู่ใน list มาจัดการให้อยู่ในรูปแบบ jinja template
 
-### ตัวอย่างการเขียนโปรแกรมที่ใช้ส่งค่าไปที่ Endpoint ในตัวอย่างจะใช้ NodeJS ในการส่งข้อมูลไปยัง MEp
-
-* ติดตั้ง Module
-
-  ```
-  npm install --save request
-  npm install --save request-promise
-  ```
-
-* สร้างไฟล์ `example-2.js` แล้วเขียนโปรแกรมตามตัวอย่าง
-  ```javascript
-  const request = require("request-promise")
-  const getData = {
-    uri: 'https://api.openweathermap.org/data/2.5/find?lat=13.764968&lon=100.538245&cnt=10&appid=f47eeabecaa43594079886ab0fcd1508&units=metric',
-    json: true
-  }
-  let postEndpoint = {
-    method: 'POST',
-    uri: 'https://e.mep.meca.in.th/e/demo/iteratorJinja',
-    auth: {
-      user: 'user',
-      pass: 'pass'
-    },
-    body: null,
-    json: true
-  }
-
-  const timerId = setInterval(() => {
-    request(getData)
-      .then(function (repos) {
-        postEndpoint.body = repos
-        request(postEndpoint)
-          .then(function (parsedBody) {
-            console.log(Date().toString() + ': send to endpoint')
-          })
-          .catch(function (err) {
-            console.log('post error\n' + err)
-        })
-      })
-      .catch(function (err) {
-        console.log('get error:\n' + err)
-      })
-    }, 5 * 60 * 1000)
-    setTimeout(() => {
-      clearInterval(timerId)
-    }, 8.64e+7)
-  ```
-
 ### ตัวอย่างการสร้าง Endpoint ใน MEp เพื่อรับข้อมูล
 
 * คลิกไอคอนด้านขวามือของ `Group 1` > เลือก `task.iterator`
@@ -181,6 +133,53 @@ title: Iterator
     }  
     ```
   {% endraw %}
+
+### ตัวอย่างการเขียนโปรแกรมที่ใช้ส่งค่าไปที่ Endpoint ในตัวอย่างจะใช้ NodeJS ในการส่งข้อมูลไปยัง MEp
+
+* ติดตั้ง Module
+
+  ```
+  npm install --save request-promise
+  ```
+
+* สร้างไฟล์ `example-2.js` แล้วเขียนโปรแกรมตามตัวอย่าง
+  ```javascript
+  const request = require("request-promise")
+  const getData = {
+    uri: 'https://api.openweathermap.org/data/2.5/find?lat=13.764968&lon=100.538245&cnt=10&appid=f47eeabecaa43594079886ab0fcd1508&units=metric',
+    json: true
+  }
+  let postEndpoint = {
+    method: 'POST',
+    uri: 'https://e.mep.meca.in.th/e/<SERVICE_NAME>/<ENDPOINT_NAME>',
+    auth: {
+      user: 'user',
+      pass: 'pass'
+    },
+    body: null,
+    json: true
+  }
+
+  const timerId = setInterval(() => {
+    request(getData)
+      .then(function (repos) {
+        postEndpoint.body = repos
+        request(postEndpoint)
+          .then(function (parsedBody) {
+            console.log(Date().toString() + ': send to endpoint')
+          })
+          .catch(function (err) {
+            console.log('post error\n' + err)
+        })
+      })
+      .catch(function (err) {
+        console.log('get error:\n' + err)
+      })
+    }, 5 * 60 * 1000)
+    setTimeout(() => {
+      clearInterval(timerId)
+    }, 8.64e+7)
+  ```
 
 ### ตรวจสอบการทำงานของ Endpoint
 
