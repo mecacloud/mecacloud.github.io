@@ -126,7 +126,6 @@ title: Jinja Template and HTTP Request
 * ติดตั้ง Module
 
   ```
-  npm install --save request
   npm install --save request-promise
   ```
 
@@ -186,5 +185,3 @@ title: Jinja Template and HTTP Request
   ![alt text](./images/jinjaTemplate/7.png 'Exception')
   * Logger (แสดง Log ของ task.logger)
   ![alt text](./images/jinjaTemplate/8.png 'Logger')
-  
-  

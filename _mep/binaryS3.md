@@ -9,13 +9,32 @@ title: Binary File S3
 
 เขียนโปรแกรม ส่งรูปภาพไปที่ Endpoint โดยรับภาพที่ส่งมาไปเก็บไว้ที่ S3
 
+### การสร้าง Endpoint ใน MEp เพื่อรับข้อมูล
+
+* คลิกไอคอนด้านขวามือของ `Group 1` > เลือก `task.s3Keeper`
+![alt text](./images/s3Keeper/1.png 'End-Point Form')
+
+* กรอกข้อมูลในฟอร์ม > กด Create
+![alt text](./images/s3Keeper/2.png 'End-Point Form')
+
+### ตัวอย่างการกรอกแบบฟอร์ม
+
+  |**CLIEND OPTION**
+  |**AWS Access Key ID**|ตัวอย่าง `VYWLAU8OREV2DXRDGVXP` |
+  |**AWS Secret Access Key**|ตัวอย่าง `halOmKuigFYlf6lmE3JCv4crzxwoMFmcHV1BEArE`|
+  |**Use SSL**|`TRUE`|
+  |**End-Point URL**|ตัวอย่าง `https://s3.meca.in.th`|
+  |**PUT OBJECT OPTION**
+  |**Body**|ตัวอย่าง `multipart`|
+  |**Bucket**|ตัวอย่าง `botdemo`|
+  |**Key Prefix**|ตัวอย่าง {% raw %}`CCTV_Charleston/{{templateVariable.datetimeISOString}}.jpg`{% endraw %}|
+
 ### ตัวอย่างการเขียนโปรแกรมที่ใช้ส่งค่าไปที่ Endpoint ในตัวอย่างจะใช้ NodeJS ในการส่งข้อมูลไปยัง MEp
 
 * ติดตั้ง Module
 
   ```
-  npm install --save request
-  npm install --save fs
+  npm install --save request-promise
   ```
 
 * สร้างไฟล์ `example-4.js` แล้วเขียนโปรแกรมตามตัวอย่าง
@@ -27,7 +46,7 @@ title: Binary File S3
   let postEndpoint = {
     method: 'POST',
     port: 443,
-    uri: 'https://e.mep.meca.in.th/e/demo/s3Keeper',
+    uri: 'https://e.mep.meca.in.th/e/<SERVICE_NAME>/<ENDPOINT_NAME>',
     headers: {
       'Content-Type': 'multipart/form-data'
     },
@@ -49,26 +68,6 @@ title: Binary File S3
     })
   })
   ```
-
-### การสร้าง Endpoint ใน MEp เพื่อรับข้อมูล
-
-* คลิกไอคอนด้านขวามือของ `Group 1` > เลือก `task.s3Keeper`
-![alt text](./images/s3Keeper/1.png 'End-Point Form')
-
-* กรอกข้อมูลในฟอร์ม > กด Create
-![alt text](./images/s3Keeper/2.png 'End-Point Form')
-
-### ตัวอย่างการกรอกแบบฟอร์ม
-
-  |**CLIEND OPTION**
-  |**AWS Access Key ID**|ตัวอย่าง `VYWLAU8OREV2DXRDGVXP` |
-  |**AWS Secret Access Key**|ตัวอย่าง `halOmKuigFYlf6lmE3JCv4crzxwoMFmcHV1BEArE`|
-  |**Use SSL**|`TRUE`|
-  |**End-Point URL**|ตัวอย่าง `https://s3.meca.in.th`|
-  |**PUT OBJECT OPTION**
-  |**Body**|ตัวอย่าง `multipart`|
-  |**Bucket**|ตัวอย่าง `botdemo`|
-  |**Key Prefix**|ตัวอย่าง {% raw %}`CCTV_Charleston/{{templateVariable.datetimeISOString}}.jpg`{% endraw %}|
 
 ### ตรวจสอบการทำงานของ Endpoint
 

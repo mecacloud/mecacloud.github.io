@@ -5,12 +5,29 @@ title: Window Aggregator and Logger
 
 เขียนโปรแกรม ดึงค่า Free memory ในคอมพิวเตอร์ โดยใช้ command `free -m` และส่งไปที่ Endpoint โดยรับค่าที่ได้ มาหาค่าเฉลี่ยของ Free memory ในทุกทุก 5 นาที และแสดงผลออกมาทาง Log
 
+### ตัวอย่างการสร้าง Endpoint ใน MEp เพื่อรับข้อมูล
+
+* คลิกไอคอนด้านขวามือของ `Group 1` > เลือก `task.windowAggregator`
+![alt text](./images/windowAggregatorLogger/1.png 'End-Point Form')
+
+* กรอกข้อมูลในฟอร์ม
+![alt text](./images/windowAggregatorLogger/2.png 'End-Point Form')
+
+  |**Data Type**
+  |**Key name**|Key ของ task.windowAggragator ตัวอย่าง `free_mem` |
+  |**Value**|Value ของ task.windowAggragator ตัวอย่าง {% raw %}`{{payload.free}}`{% endraw %} ได้มาจาก payload response |
+  |**End of Task**
+  |**By**|สิ่งที่ให้ task ทำงาน ตัวอย่าง `timeout`|
+  |**Operation**|ตัวดำเนินการ ตัวอย่าง `eq` (Equal)|
+  |**Hash Key**|Hash Key |
+  |**Value**|Value ของ end of task ตัวอย่าง `300` (5 นาที) |
+  |**Return Value**|ผลลัพธ์ที่ถูกส่งออกของ task.windowAggragator ตัวอย่าง `avg` (Average) |
+
 ### ตัวอย่างการเขียนโปรแกรมที่ใช้ส่งค่าไปที่ Endpoint ในตัวอย่างจะใช้ NodeJS ในการส่งข้อมูลไปยัง MEp
 
 * ติดตั้ง Module
 
   ```
-  npm install --save request
   npm install --save request-promise
   ```
 
@@ -22,7 +39,7 @@ title: Window Aggregator and Logger
 
   let postEndpoint = {
     method: 'POST',
-    uri: 'https://e.mep.meca.in.th/e/demo/windowAggregatorLogger',
+    uri: 'https://e.mep.meca.in.th/e/<SERVICE_NAME>/<ENDPOINT_NAME>',
     auth: {
       user: 'user',
       pass: 'pass'
@@ -66,24 +83,6 @@ title: Window Aggregator and Logger
     }, 8.64e+7)
   })
   ```
-
-### ตัวอย่างการสร้าง Endpoint ใน MEp เพื่อรับข้อมูล
-
-* คลิกไอคอนด้านขวามือของ `Group 1` > เลือก `task.windowAggregator`
-![alt text](./images/windowAggregatorLogger/1.png 'End-Point Form')
-
-* กรอกข้อมูลในฟอร์ม
-![alt text](./images/windowAggregatorLogger/2.png 'End-Point Form')
-
-  |**Data Type**
-  |**Key name**|Key ของ task.windowAggragator ตัวอย่าง `free_mem` |
-  |**Value**|Value ของ task.windowAggragator ตัวอย่าง {% raw %}`{{paylaod.free}}`{% endraw %} ได้มาจาก payload response |
-  |**End of Task**
-  |**By**|สิ่งที่ให้ task ทำงาน ตัวอย่าง `timeout`|
-  |**Operation**|ตัวดำเนินการ ตัวอย่าง `eq` (Equal)|
-  |**Hash Key**|Hash Key |
-  |**Value**|Value ของ end of task ตัวอย่าง `300` (5 นาที) |
-  |**Return Value**|ผลลัพธ์ที่ถูกส่งออกของ task.windowAggragator ตัวอย่าง `avg` (Average) |
 
 ### ตรวจสอบการทำงานของ Endpoint
 
