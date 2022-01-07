@@ -126,7 +126,7 @@ title: Iterator
     json: true
   }
 
-  const timerId = setInterval(() => {
+  const fetchWeather = () => {
     request(getData)
       .then(function (repos) {
         postEndpoint.body = repos
@@ -141,10 +141,15 @@ title: Iterator
       .catch(function (err) {
         console.log('get error:\n' + err)
       })
-    }, 5 * 60 * 1000)
+    }
+
+  fetchWeather()
+
+  const timerId = setInterval(fetchWeather, 5 * 60 * 1000)
     setTimeout(() => {
       clearInterval(timerId)
     }, 8.64e+7)
+  
   ```
 
 ### ตัวอย่างการสร้าง Endpoint ใน MEp เพื่อรับข้อมูล

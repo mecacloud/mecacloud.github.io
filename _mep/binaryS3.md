@@ -40,7 +40,7 @@ title: Binary File S3
     }
   }
 
-  request('http://bugatti.nvfast.org/Snapshots/106.jpeg?015d2e2a-d444-4be2-aab3-9f2fb7f46d5b').pipe(fs.createWriteStream('s3.png')).on('close', function () {
+  request('https://bugatti.nvfast.org/Snapshots/102.jpeg').pipe(fs.createWriteStream('s3.png')).on('close', function () {
     postEndpoint.formData.image = fs.createReadStream('./s3.png')
     request(postEndpoint).then(function (parsedBody) {
       console.log(Date().toString() + ': send to endpoint')
