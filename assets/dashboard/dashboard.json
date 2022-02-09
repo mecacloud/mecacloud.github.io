@@ -47,7 +47,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/7188ee40-4193-11ec-9bf9-036b25d96c69?embed=true&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20NECTEC',viewMode:view)&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:'2021-04-01T14:21:05.704Z'))"
+                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/7188ee40-4193-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20NECTEC',viewMode:view)"
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
@@ -91,7 +91,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/5da82a70-4194-11ec-9bf9-036b25d96c69?embed=true&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20BIOTEC',viewMode:view)&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:'2021-04-01T14:21:05.704Z'))"
+                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/5da82a70-4194-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20BIOTEC',viewMode:view)"
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
@@ -113,7 +113,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/aea7f1d0-4194-11ec-9bf9-036b25d96c69?embed=true&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20MTEC',viewMode:view)&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:'2021-04-01T14:21:05.704Z'))"
+                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/aea7f1d0-4194-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20MTEC',viewMode:view)"
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
@@ -135,7 +135,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/66e2f2b0-4193-11ec-9bf9-036b25d96c69?embed=true&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20CO',viewMode:view)&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:'2021-04-01T14:21:05.704Z'))"
+                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/66e2f2b0-4193-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20CO',viewMode:view)"
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
@@ -157,7 +157,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/1b7af150-4194-11ec-9bf9-036b25d96c69?embed=true&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20CO%203rd%20Floor',viewMode:view)&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:'2021-04-01T14:21:05.704Z'))"
+                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/1b7af150-4194-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20CO%203rd%20Floor',viewMode:view)"
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
@@ -179,7 +179,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/39c2b670-4194-11ec-9bf9-036b25d96c69?embed=true&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20CO%20Incubwing',viewMode:view)&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:'2021-04-01T14:21:05.704Z'))"
+                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/39c2b670-4194-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20CO%20Incubwing',viewMode:view)"
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
@@ -201,7 +201,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/d74a9fc0-4194-11ec-9bf9-036b25d96c69?embed=true&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20NECTEC%20Pilot%20plant',viewMode:view)&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:'2021-04-01T14:21:05.704Z'))"
+                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/d74a9fc0-4194-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20NECTEC%20Pilot%20plant',viewMode:view)"
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
@@ -223,7 +223,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/0ed42740-4195-11ec-9bf9-036b25d96c69?embed=true&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20MTEC%20Pilot%20plant',viewMode:view)&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:'2021-04-01T14:21:05.704Z'))"
+                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/0ed42740-4195-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20MTEC%20Pilot%20plant',viewMode:view)"
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
@@ -245,7 +245,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/323e29b0-4195-11ec-9bf9-036b25d96c69?embed=true&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20BIOTEC%20Pilot%20plant',viewMode:view)&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:'2021-04-01T14:21:05.704Z'))"
+                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/323e29b0-4195-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20BIOTEC%20Pilot%20plant',viewMode:view)"
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
@@ -267,7 +267,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/68859440-4195-11ec-9bf9-036b25d96c69?embed=true&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20TOT%20Office',viewMode:view)&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:'2021-04-01T14:21:05.704Z'))"
+                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/68859440-4195-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20TOT%20Office',viewMode:view)"
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
@@ -289,7 +289,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/90b0ef50-4195-11ec-9bf9-036b25d96c69?embed=true&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20INC1',viewMode:view)&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:'2021-04-01T14:21:05.704Z'))"
+                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/90b0ef50-4195-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20INC1',viewMode:view)"
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
@@ -311,7 +311,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/abc0baf0-4195-11ec-9bf9-036b25d96c69?embed=true&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20CC',viewMode:view)&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:'2021-04-01T14:21:05.704Z'))"
+                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/abc0baf0-4195-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20CC',viewMode:view)"
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
@@ -333,7 +333,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/c8e0a1e0-4195-11ec-9bf9-036b25d96c69?embed=true&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20BETAGRO',viewMode:view)&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:'2021-04-01T14:21:05.704Z'))"
+                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/c8e0a1e0-4195-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20BETAGRO',viewMode:view)"
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
@@ -355,7 +355,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/f00b07b0-4195-11ec-9bf9-036b25d96c69?embed=true&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20SSH',viewMode:view)&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:'2021-04-01T14:21:05.704Z'))"
+                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/f00b07b0-4195-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20SSH',viewMode:view)"
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
@@ -377,7 +377,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/0a6d2e30-4196-11ec-9bf9-036b25d96c69?embed=true&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20Residence',viewMode:view)&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:'2021-04-01T14:21:05.704Z'))"
+                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/0a6d2e30-4196-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20Residence',viewMode:view)"
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
@@ -399,7 +399,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/28514f80-4196-11ec-9bf9-036b25d96c69?embed=true&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20INC%202%20Tower%20A',viewMode:view)&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:'2021-04-01T14:21:05.704Z'))"
+                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/28514f80-4196-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20INC%202%20Tower%20A',viewMode:view)"
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
@@ -421,7 +421,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/4776a360-4196-11ec-9bf9-036b25d96c69?embed=true&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20INC%202%20Tower%20B',viewMode:view)&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:'2021-04-01T14:21:05.704Z'))"
+                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/4776a360-4196-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20INC%202%20Tower%20B',viewMode:view)"
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
@@ -443,7 +443,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/5d2f8d20-4196-11ec-9bf9-036b25d96c69?embed=true&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20INC%202%20Tower%20C',viewMode:view)&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:'2021-04-01T14:21:05.704Z'))"
+                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/5d2f8d20-4196-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20INC%202%20Tower%20C',viewMode:view)"
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
@@ -465,7 +465,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/9c273dc0-4196-11ec-9bf9-036b25d96c69?embed=true&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20INC%202%20Tower%20D',viewMode:view)&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:'2021-04-01T14:21:05.704Z'))"
+                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/9c273dc0-4196-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20INC%202%20Tower%20D',viewMode:view)"
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
@@ -487,7 +487,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/b4314370-4196-11ec-9bf9-036b25d96c69?embed=true&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20INC%202%20Tower%20E',viewMode:view)&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:'2021-04-01T14:21:05.704Z'))"
+                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/b4314370-4196-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20INC%202%20Tower%20E',viewMode:view)"
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
@@ -509,7 +509,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/d7ce3cc0-4196-11ec-9bf9-036b25d96c69?embed=true&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20Water%20waste%20station',viewMode:view)&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:'2021-04-01T14:21:05.704Z'))"
+                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/d7ce3cc0-4196-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20Water%20waste%20station',viewMode:view)"
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
@@ -531,7 +531,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/28cc5670-4197-11ec-9bf9-036b25d96c69?embed=true&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20Waste%20incinerator',viewMode:view)&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:'2021-04-01T14:21:05.704Z'))"
+                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/28cc5670-4197-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20Waste%20incinerator',viewMode:view)"
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
@@ -553,7 +553,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/4c036200-4197-11ec-9bf9-036b25d96c69?embed=true&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20Tower%2013',viewMode:view)&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:'2021-04-30T14:21:05.704Z'))"
+                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/4c036200-4197-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20Tower%2013',viewMode:view)"
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
@@ -575,7 +575,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/6f5cc2a0-4197-11ec-9bf9-036b25d96c69?embed=true&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20PTT%20Project',viewMode:view)&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:'2021-04-01T14:21:05.704Z'))"
+                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/6f5cc2a0-4197-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20PTT%20Project',viewMode:view)"
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
@@ -597,7 +597,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/87b0c9a0-4197-11ec-9bf9-036b25d96c69?embed=true&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20Co-Working%20space',viewMode:view)&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:'2021-04-01T14:21:05.704Z'))"
+                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/87b0c9a0-4197-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20Co-Working%20space',viewMode:view)"
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
@@ -619,7 +619,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/a9945320-4197-11ec-9bf9-036b25d96c69?embed=true&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20Black%20canyon%20coffee',viewMode:view)&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:'2021-04-01T14:21:05.704Z'))"
+                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/a9945320-4197-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20Black%20canyon%20coffee',viewMode:view)"
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
@@ -641,7 +641,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/c0cb0340-4197-11ec-9bf9-036b25d96c69?embed=true&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20AIT%20Office',viewMode:view)&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:'2021-04-01T14:21:05.704Z'))"
+                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/c0cb0340-4197-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20AIT%20Office',viewMode:view)"
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
@@ -663,7 +663,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/dc4d66d0-4197-11ec-9bf9-036b25d96c69?embed=true&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20BIOTEC%20Greenhouse',viewMode:view)&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:'2021-04-01T14:21:05.704Z'))"
+                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/dc4d66d0-4197-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20BIOTEC%20Greenhouse',viewMode:view)"
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
@@ -685,7 +685,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/04321bf0-4198-11ec-9bf9-036b25d96c69?embed=true&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20NSTDA%20Electric%20substation',viewMode:view)&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:'2021-04-01T14:21:05.704Z'))"
+                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/04321bf0-4198-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20NSTDA%20Electric%20substation',viewMode:view)"
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
@@ -707,7 +707,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/37444c20-4198-11ec-9bf9-036b25d96c69?embed=true&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20SCG',viewMode:view)&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:'2021-04-01T14:21:05.704Z'))"
+                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/37444c20-4198-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20SCG',viewMode:view)"
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
@@ -729,7 +729,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/4da7f4d0-4198-11ec-9bf9-036b25d96c69?embed=true&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20NANOTEC%20Pilot%20plant',viewMode:view)&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:'2021-04-01T14:21:05.704Z'))"
+                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/4da7f4d0-4198-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20NANOTEC%20Pilot%20plant',viewMode:view)"
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
@@ -751,7 +751,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/697bacb0-4198-11ec-9bf9-036b25d96c69?embed=true&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20MPB',viewMode:view)&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:'2021-04-01T14:21:05.704Z'))"
+                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/697bacb0-4198-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20MPB',viewMode:view)"
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
@@ -773,7 +773,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/8228a920-4198-11ec-9bf9-036b25d96c69?embed=true&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20MPB%20Food%20center',viewMode:view)&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:'2021-04-01T14:21:05.704Z'))"
+                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/8228a920-4198-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20MPB%20Food%20center',viewMode:view)"
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
@@ -795,7 +795,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/a23501a0-4198-11ec-9bf9-036b25d96c69?embed=true&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20Clinic',viewMode:view)&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:'2021-04-01T14:21:05.704Z'))"
+                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/a23501a0-4198-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20Clinic',viewMode:view)"
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
@@ -817,7 +817,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/b85511a0-4198-11ec-9bf9-036b25d96c69?embed=true&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20SCG%202',viewMode:view)&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:'2021-04-01T14:21:05.704Z'))"
+                        "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/b85511a0-4198-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20SCG%202',viewMode:view)"
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
