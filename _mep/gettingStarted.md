@@ -7,15 +7,23 @@ title: Getting Started
 
 ## Endpoint
 
-เป็นส่วนที่ให้ผู้ใช้งาน สร้าง HTTP Endpoint โดยผู้ใช้จะได้รับ HTTP Path สำหรับรับข้อมูล ซึ่ง ผู้ใช้สามารถตั้งค่า ที่เกี่ยวข้องกับ HTTP Endpoint ได้
+ขณะนี้ MEp รองรับ แหล่งข้อมูล 2 แหล่ง คือ HTTP และ MQTT โดย HTTP จะเป็นส่วนที่ให้ผู้ใช้งาน สร้าง HTTP Endpoint โดยผู้ใช้จะได้รับ HTTP Path สำหรับรับข้อมูล ซึ่ง ผู้ใช้สามารถตั้งค่า ที่เกี่ยวข้องกับ HTTP Endpoint ได้ และ MQTT จะให้ผู้ใช้งานสร้าง MQTT Subscription เพื่อรับข้อมูลจาก MQTT Server และ MQTT Topic ที่กำหนด
 
-![alt text](./images/gettingStarted/EndpointForm.png 'Endpoint Form')
+### การเลือกแหล่งข้อมูลประเภท HTTP
+![alt text](./images/gettingStarted/EndpointFormHTTP.png 'Endpoint HTTP Form')
+
+### การเลือกแหล่งข้อมูลประเภท MQTT
+![alt text](./images/gettingStarted/EndpointFormMQTT.png 'Endpoint MQTT Form')
 
   |**Name**|ชื่อ End-Point|
+  |**การตั้งค่าสำหรับ HTTP**|
   |**Authentication**
   |**Methods**|รูปแบบการ Authentication|
   |**Key**|username|
   |**Secret**|password หรือ secret key|
+  |**การตั้งค่าสำหรับ MQTT**|
+  |**Connection**|เลือก หรือสร้าง MQTT Connection|
+  |**Subscription**|เลือก หรือสร้าง MQTT Subscription|
   |**Parse Request**
   |**Error Handle**|กรณีเกิด Error กับ end-point ให้ดำเนินการต่ออย่างไร (bytes, rise, drop)|
   |**Processors (Tasks)**| Task ของ end-point ที่ใช้ในการจัดการข้อมูล|
