@@ -2058,9 +2058,19 @@
               "markers": [
                 {
                   "id": "urn:smartnstda:Marker:cctv:nectec",
+                  "hoverContent": {
+                    "title": "กล้องวงจรปิด อาคารศอ.",
+                    "bodyContent": {
+                      "embeddedURL": {
+                        "method": "GET",
+                        "url": "http://203.185.101.33/metavms/"
+                      }
+                    },
+                    "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
+                  },
                   "iconURL": {
                     "method": "GET",
-                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/fire.png"
+                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
                   },
                   "name": "กล้องวงจรปิด ศอ.",
                   "position": {
