@@ -2048,6 +2048,38 @@
             "zoom": 16
           },
           "name": "จุดรวมพล"
+        },
+        {
+          "id": "urn:smartnstda:Layer:cctv",
+          "defaultMapObjectIndex": 0,
+          "mapObjects": [
+            {
+              "id": "urn:smartnstda:MapObject:cctv",
+              "markers": [
+                {
+                  "id": "urn:smartnstda:Marker:cctv:nectec",
+                  "iconURL": {
+                    "method": "GET",
+                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/fire.png"
+                  },
+                  "name": "กล้องวงจรปิด ศอ.",
+                  "position": {
+                    "lat": 14.077711916262766,
+                    "lng": 100.60131827638493
+                  }
+                }
+              ],
+              "name": "กล้องวงจรปิด"
+            }
+          ],
+          "mapOption": {
+            "center": {
+              "lat": 14.075792,
+              "lng": 100.603466
+            },
+            "zoom": 16
+          },
+          "name": "กล้องวงจรปิด"
         }
       ],
       "logoURL": {
