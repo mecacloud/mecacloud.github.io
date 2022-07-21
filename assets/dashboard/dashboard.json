@@ -2070,7 +2070,7 @@
                   },
                   "iconURL": {
                     "method": "GET",
-                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
+                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/cctv.png"
                   },
                   "name": "กล้องวงจรปิด ศอ.",
                   "position": {
@@ -100280,6 +100280,16 @@
               "markers": [
                 {
                   "id": "urn:smartnstda:Marker:parking:mpb",
+                  "hoverContent": {
+                    "title": "Smart Parking",
+                    "bodyContent": {
+                      "embeddedURL": {
+                        "method": "GET",
+                        "url": "https://smart-park.ino.nectec.or.th/nstda/parking/home"
+                      }
+                    },
+                    "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
+                  },
                   "iconURL": {
                     "method": "GET",
                     "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
