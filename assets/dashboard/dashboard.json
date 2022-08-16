@@ -113,7 +113,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&viewPanel=6&kiosk"
+                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&from=1660550639779&to=1660637039780&theme=light&viewPanel=6&kiosk"
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
