@@ -47,28 +47,6 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/7188ee40-4193-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20NECTEC',viewMode:view)"
-                      }
-                    },
-                    "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
-                  },
-                  "iconURL": {
-                    "method": "GET",
-                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
-                  },
-                  "name": "การใช้ไฟฟ้าอาคารศอ.",
-                  "position": {
-                    "lat": 14.07787,
-                    "lng": 100.601298
-                  }
-                },
-                {
-                  "id": "urn:smartnstda:Marker:buildingElectricityUsage:nectec",
-                  "hoverContent": {
-                    "title": "การใช้ไฟฟ้าอาคารศอ.",
-                    "bodyContent": {
-                      "embeddedURL": {
-                        "method": "GET",
                         "url": "https://embedded.dess.web.meca.in.th/dashboard/snapshot/6y4n3gqSbTKPbVt8qQspKaz6eeCilpBA?orgId=1&from=now-1h&to=now&refresh=10s&kiosk"
                       }
                     },
@@ -135,7 +113,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/66e2f2b0-4193-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20CO',viewMode:view)"
+                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&viewPanel=6&kiosk"
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
