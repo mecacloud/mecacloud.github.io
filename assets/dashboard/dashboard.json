@@ -47,7 +47,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://embedded.dess.web.meca.in.th/dashboard/snapshot/6y4n3gqSbTKPbVt8qQspKaz6eeCilpBA?orgId=1&from=now-1h&to=now&refresh=10s&kiosk"
+                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-14&var-gateway=jupiter2.gw.wot.meca.in.th&from=1660560382892&to=1660646782892&theme=light&viewPanel=6&kiosk"
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
@@ -69,7 +69,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/5da82a70-4194-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20BIOTEC',viewMode:view)"
+                        "url": ""
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
@@ -91,7 +91,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/aea7f1d0-4194-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20MTEC',viewMode:view)"
+                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-1&var-gateway=jupiter-mtec-01.gw.wot.meca.in.th&from=1660561012611&to=1660647412611&theme=light&viewPanel=6&kiosk"
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
@@ -113,7 +113,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&from=1660550639779&to=1660637039780&theme=light&viewPanel=6&kiosk"
+                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-2&var-gateway=jupiter-co-01.gw.wot.meca.in.th&from=1660561067478&to=1660647467478&theme=light&viewPanel=1&kiosk"
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
@@ -179,7 +179,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/d74a9fc0-4194-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20NECTEC%20Pilot%20plant',viewMode:view)"
+                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&from=1660555337699&to=1660641737700&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-1&var-gateway=jupiter-nectecpp-01.gw.wot.meca.in.th&theme=light&viewPanel=6&kiosk"
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
@@ -201,7 +201,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/0ed42740-4195-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20MTEC%20Pilot%20plant',viewMode:view)"
+                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&from=1660555371567&to=1660641771567&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-2&var-gateway=jupiter-mtecpp-01.gw.wot.meca.in.th&theme=light&viewPanel=6&kiosk"
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
@@ -223,7 +223,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/323e29b0-4195-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20BIOTEC%20Pilot%20plant',viewMode:view)"
+                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&from=1660555401742&to=1660641801742&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-2&var-gateway=jupiter-biotecpp-01.gw.wot.meca.in.th&theme=light&viewPanel=6&kiosk"
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
@@ -239,13 +239,13 @@
                   }
                 },
                 {
-                  "id": "urn:smartnstda:Marker:buildingElectricityUsage:tot",
+                  "id": "urn:smartnstda:Marker:buildingElectricityUsage:ut",
                   "hoverContent": {
-                    "title": "การใช้ไฟฟ้าอาคาร TOT",
+                    "title": "การใช้ไฟฟ้าอาคาร Utility House",
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/68859440-4195-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20TOT%20Office',viewMode:view)"
+                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-1&var-gateway=jupiter-ut-01.gw.wot.meca.in.th&from=1660561577862&to=1660647977862&theme=light&viewPanel=6&kiosk"
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
@@ -256,8 +256,31 @@
                   },
                   "name": "การใช้ไฟฟ้าอาคาร TOT",
                   "position": {
-                    "lat": 14.07676,
-                    "lng": 100.60282
+                    "lat": 14.079439364433563,
+                    "lng": 100.60219881520447
+                  }
+                },
+                {
+                  "id": "urn:smartnstda:Marker:buildingElectricityUsage:greenhouse1",
+                  "hoverContent": {
+                    "title": "การใช้ไฟฟ้าอาคาร Green House 1",
+                    "bodyContent": {
+                      "embeddedURL": {
+                        "method": "GET",
+                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-2&var-gateway=jupiter-greenhouse-01.gw.wot.meca.in.th&from=1660561820605&to=1660648220605&theme=light&viewPanel=6&kiosk"
+                      }
+                    },
+                    "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
+                  },
+                  "iconURL": {
+                    "method": "GET",
+                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
+                  },
+                  "name": "การใช้ไฟฟ้าอาคาร TOT",
+                  "position": {
+                    
+                    "lat": 14.081181213072574,
+                    "lng": 100.60262766523306
                   }
                 },
                 {
@@ -267,7 +290,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/90b0ef50-4195-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20INC1',viewMode:view)"
+                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&from=1660555441225&to=1660641841225&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-2&var-gateway=jupiter-inc1-01.gw.wot.meca.in.th&theme=light&viewPanel=6&kiosk"
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
@@ -283,57 +306,13 @@
                   }
                 },
                 {
-                  "id": "urn:smartnstda:Marker:buildingElectricityUsage:cc",
-                  "hoverContent": {
-                    "title": "การใช้ไฟฟ้าอาคารศูนย์ประชุมฯ",
-                    "bodyContent": {
-                      "embeddedURL": {
-                        "method": "GET",
-                        "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/abc0baf0-4195-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20CC',viewMode:view)"
-                      }
-                    },
-                    "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
-                  },
-                  "iconURL": {
-                    "method": "GET",
-                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
-                  },
-                  "name": "การใช้ไฟฟ้าอาคารศูนย์ประชุมฯ",
-                  "position": {
-                    "lat": 14.07874,
-                    "lng": 100.60289
-                  }
-                },
-                {
-                  "id": "urn:smartnstda:Marker:buildingElectricityUsage:betagro",
-                  "hoverContent": {
-                    "title": "การใช้ไฟฟ้าอาคารศูนย์วิทยาศาสตร์เบทาโกร",
-                    "bodyContent": {
-                      "embeddedURL": {
-                        "method": "GET",
-                        "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/c8e0a1e0-4195-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20BETAGRO',viewMode:view)"
-                      }
-                    },
-                    "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
-                  },
-                  "iconURL": {
-                    "method": "GET",
-                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
-                  },
-                  "name": "การใช้ไฟฟ้าอาคารศูนย์วิทยาศาสตร์เบทาโกร",
-                  "position": {
-                    "lat": 14.0794,
-                    "lng": 100.60059
-                  }
-                },
-                {
                   "id": "urn:smartnstda:Marker:buildingElectricityUsage:ssh",
                   "hoverContent": {
                     "title": "การใช้ไฟฟ้าอาคารบ้านวิทยาศาสตร์สิรินธร",
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/f00b07b0-4195-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20SSH',viewMode:view)"
+                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&from=1660555499331&to=1660641899331&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-2&var-gateway=jupiter-ssh-01.gw.wot.meca.in.th&theme=light&viewPanel=6&kiosk"
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
@@ -349,365 +328,13 @@
                   }
                 },
                 {
-                  "id": "urn:smartnstda:Marker:buildingElectricityUsage:residence",
-                  "hoverContent": {
-                    "title": "การใช้ไฟฟ้าอาคารหอพักสหกรณ์ สวทช.",
-                    "bodyContent": {
-                      "embeddedURL": {
-                        "method": "GET",
-                        "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/0a6d2e30-4196-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20Residence',viewMode:view)"
-                      }
-                    },
-                    "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
-                  },
-                  "iconURL": {
-                    "method": "GET",
-                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
-                  },
-                  "name": "การใช้ไฟฟ้าอาคารหอพักสหกรณ์ สวทช.",
-                  "position": {
-                    "lat": 14.08077,
-                    "lng": 100.60295
-                  }
-                },
-                {
-                  "id": "urn:smartnstda:Marker:buildingElectricityUsage:inc2A",
-                  "hoverContent": {
-                    "title": "การใช้ไฟฟ้าอาคารกลุ่มนวัตกรรม 2 ทาวเวอร์ A",
-                    "bodyContent": {
-                      "embeddedURL": {
-                        "method": "GET",
-                        "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/28514f80-4196-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20INC%202%20Tower%20A',viewMode:view)"
-                      }
-                    },
-                    "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
-                  },
-                  "iconURL": {
-                    "method": "GET",
-                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
-                  },
-                  "name": "การใช้ไฟฟ้าอาคารกลุ่มนวัตกรรม 2 ทาวเวอร์ A",
-                  "position": {
-                    "lat": 14.07993,
-                    "lng": 100.60408
-                  }
-                },
-                {
-                  "id": "urn:smartnstda:Marker:buildingElectricityUsage:inc2B",
-                  "hoverContent": {
-                    "title": "การใช้ไฟฟ้าอาคารกลุ่มนวัตกรรม 2 ทาวเวอร์ B",
-                    "bodyContent": {
-                      "embeddedURL": {
-                        "method": "GET",
-                        "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/4776a360-4196-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20INC%202%20Tower%20B',viewMode:view)"
-                      }
-                    },
-                    "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
-                  },
-                  "iconURL": {
-                    "method": "GET",
-                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
-                  },
-                  "name": "การใช้ไฟฟ้าอาคารกลุ่มนวัตกรรม 2 ทาวเวอร์ B",
-                  "position": {
-                    "lat": 14.0795,
-                    "lng": 100.60406
-                  }
-                },
-                {
-                  "id": "urn:smartnstda:Marker:buildingElectricityUsage:inc2C",
-                  "hoverContent": {
-                    "title": "การใช้ไฟฟ้าอาคารกลุ่มนวัตกรรม 2 ทาวเวอร์ C",
-                    "bodyContent": {
-                      "embeddedURL": {
-                        "method": "GET",
-                        "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/5d2f8d20-4196-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20INC%202%20Tower%20C',viewMode:view)"
-                      }
-                    },
-                    "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
-                  },
-                  "iconURL": {
-                    "method": "GET",
-                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
-                  },
-                  "name": "การใช้ไฟฟ้าอาคารกลุ่มนวัตกรรม 2 ทาวเวอร์ C",
-                  "position": {
-                    "lat": 14.07933,
-                    "lng": 100.60405
-                  }
-                },
-                {
-                  "id": "urn:smartnstda:Marker:buildingElectricityUsage:inc2D",
-                  "hoverContent": {
-                    "title": "การใช้ไฟฟ้าอาคารกลุ่มนวัตกรรม 2 ทาวเวอร์ D",
-                    "bodyContent": {
-                      "embeddedURL": {
-                        "method": "GET",
-                        "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/9c273dc0-4196-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20INC%202%20Tower%20D',viewMode:view)"
-                      }
-                    },
-                    "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
-                  },
-                  "iconURL": {
-                    "method": "GET",
-                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
-                  },
-                  "name": "การใช้ไฟฟ้าอาคารกลุ่มนวัตกรรม 2 ทาวเวอร์ D",
-                  "position": {
-                    "lat": 14.07908,
-                    "lng": 100.60406
-                  }
-                },
-                {
-                  "id": "urn:smartnstda:Marker:buildingElectricityUsage:inc2E",
-                  "hoverContent": {
-                    "title": "การใช้ไฟฟ้าอาคารกลุ่มนวัตกรรม 2 ทาวเวอร์ E",
-                    "bodyContent": {
-                      "embeddedURL": {
-                        "method": "GET",
-                        "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/b4314370-4196-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20INC%202%20Tower%20E',viewMode:view)"
-                      }
-                    },
-                    "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
-                  },
-                  "iconURL": {
-                    "method": "GET",
-                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
-                  },
-                  "name": "การใช้ไฟฟ้าอาคารกลุ่มนวัตกรรม 2 ทาวเวอร์ E",
-                  "position": {
-                    "lat": 14.07826,
-                    "lng": 100.60412
-                  }
-                },
-                {
-                  "id": "urn:smartnstda:Marker:buildingElectricityUsage:waterwaste",
-                  "hoverContent": {
-                    "title": "การใช้ไฟฟ้าจุดบำบัดน้ำเสีย",
-                    "bodyContent": {
-                      "embeddedURL": {
-                        "method": "GET",
-                        "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/d7ce3cc0-4196-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20Water%20waste%20station',viewMode:view)"
-                      }
-                    },
-                    "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
-                  },
-                  "iconURL": {
-                    "method": "GET",
-                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
-                  },
-                  "name": "การใช้ไฟฟ้าจุดบำบัดน้ำเสีย",
-                  "position": {
-                    "lat": 14.08261,
-                    "lng": 100.60348
-                  }
-                },
-                {
-                  "id": "urn:smartnstda:Marker:buildingElectricityUsage:wastestove",
-                  "hoverContent": {
-                    "title": "การใช้ไฟฟ้าเตาเผาขยะ",
-                    "bodyContent": {
-                      "embeddedURL": {
-                        "method": "GET",
-                        "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/28cc5670-4197-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20Waste%20incinerator',viewMode:view)"
-                      }
-                    },
-                    "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
-                  },
-                  "iconURL": {
-                    "method": "GET",
-                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
-                  },
-                  "name": "การใช้ไฟฟ้าเตาเผาขยะ",
-                  "position": {
-                    "lat": 14.08272,
-                    "lng": 100.60273
-                  }
-                },
-                {
-                  "id": "urn:smartnstda:Marker:buildingElectricityUsage:13building",
-                  "hoverContent": {
-                    "title": "การใช้ไฟฟ้าอาคาร 13",
-                    "bodyContent": {
-                      "embeddedURL": {
-                        "method": "GET",
-                        "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/4c036200-4197-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20Tower%2013',viewMode:view)"
-                      }
-                    },
-                    "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
-                  },
-                  "iconURL": {
-                    "method": "GET",
-                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
-                  },
-                  "name": "การใช้ไฟฟ้าอาคาร 13",
-                  "position": {
-                    "lat": 14.07692,
-                    "lng": 100.60412
-                  }
-                },
-                {
-                  "id": "urn:smartnstda:Marker:buildingElectricityUsage:pttproject",
-                  "hoverContent": {
-                    "title": "การใช้ไฟฟ้าโครงการ ปตท.",
-                    "bodyContent": {
-                      "embeddedURL": {
-                        "method": "GET",
-                        "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/6f5cc2a0-4197-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20PTT%20Project',viewMode:view)"
-                      }
-                    },
-                    "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
-                  },
-                  "iconURL": {
-                    "method": "GET",
-                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
-                  },
-                  "name": "การใช้ไฟฟ้าโครงการ ปตท.",
-                  "position": {
-                    "lat": 14.07725,
-                    "lng": 100.60312
-                  }
-                },
-                {
-                  "id": "urn:smartnstda:Marker:buildingElectricityUsage:coworkingspace",
-                  "hoverContent": {
-                    "title": "การใช้ไฟฟ้า Co-Working space โถงใหญ่",
-                    "bodyContent": {
-                      "embeddedURL": {
-                        "method": "GET",
-                        "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/87b0c9a0-4197-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20Co-Working%20space',viewMode:view)"
-                      }
-                    },
-                    "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
-                  },
-                  "iconURL": {
-                    "method": "GET",
-                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
-                  },
-                  "name": "การใช้ไฟฟ้า Co-Working space โถงใหญ่",
-                  "position": {
-                    "lat": 14.07882,
-                    "lng": 100.60218
-                  }
-                },
-                {
-                  "id": "urn:smartnstda:Marker:buildingElectricityUsage:blackcanyon",
-                  "hoverContent": {
-                    "title": "การใช้ไฟฟ้าร้านกาแฟ Black Canyon",
-                    "bodyContent": {
-                      "embeddedURL": {
-                        "method": "GET",
-                        "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/a9945320-4197-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20Black%20canyon%20coffee',viewMode:view)"
-                      }
-                    },
-                    "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
-                  },
-                  "iconURL": {
-                    "method": "GET",
-                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
-                  },
-                  "name": "การใช้ไฟฟ้าร้านกาแฟ Black Canyon",
-                  "position": {
-                    "lat": 14.07862,
-                    "lng": 100.60211
-                  }
-                },
-                {
-                  "id": "urn:smartnstda:Marker:buildingElectricityUsage:aitoffice",
-                  "hoverContent": {
-                    "title": "การใช้ไฟฟ้าอาคารสำนักงาน AIT",
-                    "bodyContent": {
-                      "embeddedURL": {
-                        "method": "GET",
-                        "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/c0cb0340-4197-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20AIT%20Office',viewMode:view)"
-                      }
-                    },
-                    "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
-                  },
-                  "iconURL": {
-                    "method": "GET",
-                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
-                  },
-                  "name": "การใช้ไฟฟ้าอาคารสำนักงาน AIT",
-                  "position": {
-                    "lat": 14.07646,
-                    "lng": 100.6056
-                  }
-                },
-                {
-                  "id": "urn:smartnstda:Marker:buildingElectricityUsage:biotecgmo",
-                  "hoverContent": {
-                    "title": "การใช้ไฟฟ้าอาคาร Greenhouse ศช.",
-                    "bodyContent": {
-                      "embeddedURL": {
-                        "method": "GET",
-                        "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/dc4d66d0-4197-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20BIOTEC%20Greenhouse',viewMode:view)"
-                      }
-                    },
-                    "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
-                  },
-                  "iconURL": {
-                    "method": "GET",
-                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
-                  },
-                  "name": "การใช้ไฟฟ้าอาคาร Greenhouse ศช.",
-                  "position": {
-                    "lat": 14.07965,
-                    "lng": 100.60303
-                  }
-                },
-                {
-                  "id": "urn:smartnstda:Marker:buildingElectricityUsage:nstdaelectricsubstation",
-                  "hoverContent": {
-                    "title": "การใช้ไฟฟ้าอาคารสถานีไฟฟ้าย่อย สวทช.",
-                    "bodyContent": {
-                      "embeddedURL": {
-                        "method": "GET",
-                        "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/04321bf0-4198-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20NSTDA%20Electric%20substation',viewMode:view)"
-                      }
-                    },
-                    "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
-                  },
-                  "iconURL": {
-                    "method": "GET",
-                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
-                  },
-                  "name": "การใช้ไฟฟ้าอาคารสถานีไฟฟ้าย่อย สวทช.",
-                  "position": {
-                    "lat": 14.081,
-                    "lng": 100.60149
-                  }
-                },
-                {
-                  "id": "urn:smartnstda:Marker:buildingElectricityUsage:scg",
-                  "hoverContent": {
-                    "title": "การใช้ไฟฟ้าบริษัท SCG",
-                    "bodyContent": {
-                      "embeddedURL": {
-                        "method": "GET",
-                        "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/37444c20-4198-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20SCG',viewMode:view)"
-                      }
-                    },
-                    "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
-                  },
-                  "iconURL": {
-                    "method": "GET",
-                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
-                  },
-                  "name": "การใช้ไฟฟ้าบริษัท SCG",
-                  "position": {
-                    "lat": 14.07986,
-                    "lng": 100.6042
-                  }
-                },
-                {
                   "id": "urn:smartnstda:Marker:buildingElectricityUsage:nanotecpp",
                   "hoverContent": {
                     "title": "การใช้ไฟฟ้าอาคาร NANOTEC Pilot plant",
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/4da7f4d0-4198-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20NANOTEC%20Pilot%20plant',viewMode:view)"
+                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-2&var-gateway=jupiter-nanotecpp-01.gw.wot.meca.in.th&from=1660560172650&to=1660646572650&theme=light&viewPanel=6&kiosk"
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
@@ -720,94 +347,6 @@
                   "position": {
                     "lat": 14.07897,
                     "lng": 100.60312
-                  }
-                },
-                {
-                  "id": "urn:smartnstda:Marker:buildingElectricityUsage:mpb",
-                  "hoverContent": {
-                    "title": "การใช้ไฟฟ้าอาคารสราญวิทย์",
-                    "bodyContent": {
-                      "embeddedURL": {
-                        "method": "GET",
-                        "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/697bacb0-4198-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20MPB',viewMode:view)"
-                      }
-                    },
-                    "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
-                  },
-                  "iconURL": {
-                    "method": "GET",
-                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
-                  },
-                  "name": "การใช้ไฟฟ้าอาคารสราญวิทย์",
-                  "position": {
-                    "lat": 14.07787,
-                    "lng": 100.60286
-                  }
-                },
-                {
-                  "id": "urn:smartnstda:Marker:buildingElectricityUsage:mpbcanteen",
-                  "hoverContent": {
-                    "title": "การใช้ไฟฟ้าศูนย์อาหารอาคารสราญวิทย์",
-                    "bodyContent": {
-                      "embeddedURL": {
-                        "method": "GET",
-                        "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/8228a920-4198-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20MPB%20Food%20center',viewMode:view)"
-                      }
-                    },
-                    "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
-                  },
-                  "iconURL": {
-                    "method": "GET",
-                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
-                  },
-                  "name": "การใช้ไฟฟ้าศูนย์อาหารอาคารสราญวิทย์",
-                  "position": {
-                    "lat": 14.0778,
-                    "lng": 100.6026
-                  }
-                },
-                {
-                  "id": "urn:smartnstda:Marker:buildingElectricityUsage:clinic",
-                  "hoverContent": {
-                    "title": "การใช้ไฟฟ้าคลินิคแพทย์",
-                    "bodyContent": {
-                      "embeddedURL": {
-                        "method": "GET",
-                        "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/a23501a0-4198-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20Clinic',viewMode:view)"
-                      }
-                    },
-                    "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
-                  },
-                  "iconURL": {
-                    "method": "GET",
-                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
-                  },
-                  "name": "การใช้ไฟฟ้าคลินิคแพทย์",
-                  "position": {
-                    "lat": 14.07777,
-                    "lng": 100.60324
-                  }
-                },
-                {
-                  "id": "urn:smartnstda:Marker:buildingElectricityUsage:scg2",
-                  "hoverContent": {
-                    "title": "การใช้ไฟฟ้าบริษัท SCG 2",
-                    "bodyContent": {
-                      "embeddedURL": {
-                        "method": "GET",
-                        "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/b85511a0-4198-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20SCG%202',viewMode:view)"
-                      }
-                    },
-                    "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
-                  },
-                  "iconURL": {
-                    "method": "GET",
-                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
-                  },
-                  "name": "การใช้ไฟฟ้าบริษัท SCG 2",
-                  "position": {
-                    "lat": 14.07931,
-                    "lng": 100.60414
                   }
                 }
               ],
