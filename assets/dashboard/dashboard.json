@@ -113,7 +113,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-2&var-gateway=jupiter-co-01.gw.wot.meca.in.th&from=1660561067478&to=1660647467478&theme=light&viewPanel=1&kiosk"
+                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-2&var-gateway=jupiter-co-01.gw.wot.meca.in.th&orgId=1&from=1660636516559&to=1660722916559&viewPanel=8"
                       }
                     },
                     "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
@@ -126,50 +126,6 @@
                   "position": {
                     "lat": 14.07672,
                     "lng": 100.60168
-                  }
-                },
-                {
-                  "id": "urn:smartnstda:Marker:buildingElectricityUsage:co3floor",
-                  "hoverContent": {
-                    "title": "การใช้ไฟฟ้าอาคารสก. ชั้น 3 ส่วนต่อเติมสำนักงานกลาง",
-                    "bodyContent": {
-                      "embeddedURL": {
-                        "method": "GET",
-                        "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/1b7af150-4194-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20CO%203rd%20Floor',viewMode:view)"
-                      }
-                    },
-                    "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
-                  },
-                  "iconURL": {
-                    "method": "GET",
-                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
-                  },
-                  "name": "การใช้ไฟฟ้าอาคารสก. ชั้น 3 ส่วนต่อเติมสำนักงานกลาง",
-                  "position": {
-                    "lat": 14.07684,
-                    "lng": 100.60184
-                  }
-                },
-                {
-                  "id": "urn:smartnstda:Marker:buildingElectricityUsage:coincubwing",
-                  "hoverContent": {
-                    "title": "การใช้ไฟฟ้าอาคารสก. Incubwing",
-                    "bodyContent": {
-                      "embeddedURL": {
-                        "method": "GET",
-                        "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/39c2b670-4194-11ec-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2020-09-01T06:17:59.898Z',to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'Smart%20city%20-%20Electric%20CO%20Incubwing',viewMode:view)"
-                      }
-                    },
-                    "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
-                  },
-                  "iconURL": {
-                    "method": "GET",
-                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
-                  },
-                  "name": "การใช้ไฟฟ้าอาคารสก. Incubwing",
-                  "position": {
-                    "lat": 14.07683,
-                    "lng": 100.60152
                   }
                 },
                 {
