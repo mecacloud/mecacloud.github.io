@@ -47,10 +47,10 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-14&var-gateway=jupiter2.gw.wot.meca.in.th&from=1660560382892&to=1660646782892&theme=light&viewPanel=6&kiosk"
+                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-14&var-gateway=jupiter2.gw.wot.meca.in.th&from=now-1d&to=now&theme=light&viewPanel=6&kiosk"
                       }
                     },
-                    "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
+                    "footer": "ข้อมูลจาก BESS ศอ. / TSS ศอ. / NFEC สวทช."
                   },
                   "iconURL": {
                     "method": "GET",
@@ -91,10 +91,10 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-1&var-gateway=jupiter-mtec-01.gw.wot.meca.in.th&from=1660561012611&to=1660647412611&theme=light&viewPanel=6&kiosk"
+                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-1&var-gateway=jupiter-mtec-01.gw.wot.meca.in.th&from=now-1d&to=now&theme=light&viewPanel=6&kiosk"
                       }
                     },
-                    "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
+                    "footer": "ข้อมูลจาก BESS ศอ. / TSS ศอ. / NFEC สวทช."
                   },
                   "iconURL": {
                     "method": "GET",
@@ -113,10 +113,10 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-2&var-gateway=jupiter-co-01.gw.wot.meca.in.th&orgId=1&from=1660636516559&to=1660722916559&viewPanel=8"
+                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-2&var-gateway=jupiter-co-01.gw.wot.meca.in.th&orgId=1&from=now-1d&to=now&viewPanel=8"
                       }
                     },
-                    "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
+                    "footer": "ข้อมูลจาก BESS ศอ. / TSS ศอ. / NFEC สวทช."
                   },
                   "iconURL": {
                     "method": "GET",
@@ -135,10 +135,10 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&from=1660555337699&to=1660641737700&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-1&var-gateway=jupiter-nectecpp-01.gw.wot.meca.in.th&theme=light&viewPanel=6&kiosk"
+                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&from=now-1d&to=now&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-1&var-gateway=jupiter-nectecpp-01.gw.wot.meca.in.th&theme=light&viewPanel=6&kiosk"
                       }
                     },
-                    "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
+                    "footer": "ข้อมูลจาก BESS ศอ. / TSS ศอ. / NFEC สวทช."
                   },
                   "iconURL": {
                     "method": "GET",
@@ -157,10 +157,10 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&from=1660555371567&to=1660641771567&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-2&var-gateway=jupiter-mtecpp-01.gw.wot.meca.in.th&theme=light&viewPanel=6&kiosk"
+                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&from=now-1d&to=now&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-2&var-gateway=jupiter-mtecpp-01.gw.wot.meca.in.th&theme=light&viewPanel=6&kiosk"
                       }
                     },
-                    "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
+                    "footer": "ข้อมูลจาก BESS ศอ. / TSS ศอ. / NFEC สวทช."
                   },
                   "iconURL": {
                     "method": "GET",
@@ -179,10 +179,10 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&from=1660555401742&to=1660641801742&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-2&var-gateway=jupiter-biotecpp-01.gw.wot.meca.in.th&theme=light&viewPanel=6&kiosk"
+                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&from=now-1d&to=now&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-2&var-gateway=jupiter-biotecpp-01.gw.wot.meca.in.th&theme=light&viewPanel=6&kiosk"
                       }
                     },
-                    "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
+                    "footer": "ข้อมูลจาก BESS ศอ. / TSS ศอ. / NFEC สวทช."
                   },
                   "iconURL": {
                     "method": "GET",
@@ -201,10 +201,10 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-1&var-gateway=jupiter-ut-01.gw.wot.meca.in.th&from=1660561577862&to=1660647977862&theme=light&viewPanel=6&kiosk"
+                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-1&var-gateway=jupiter-ut-01.gw.wot.meca.in.th&from=now-1d&to=now&theme=light&viewPanel=6&kiosk"
                       }
                     },
-                    "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
+                    "footer": "ข้อมูลจาก BESS ศอ. / TSS ศอ. / NFEC สวทช."
                   },
                   "iconURL": {
                     "method": "GET",
@@ -223,10 +223,10 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-2&var-gateway=jupiter-greenhouse-01.gw.wot.meca.in.th&from=1660561820605&to=1660648220605&theme=light&viewPanel=6&kiosk"
+                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-2&var-gateway=jupiter-greenhouse-01.gw.wot.meca.in.th&from=now-1d&to=now&theme=light&viewPanel=6&kiosk"
                       }
                     },
-                    "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
+                    "footer": "ข้อมูลจาก BESS ศอ. / TSS ศอ. / NFEC สวทช."
                   },
                   "iconURL": {
                     "method": "GET",
@@ -246,10 +246,10 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&from=1660555441225&to=1660641841225&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-2&var-gateway=jupiter-inc1-01.gw.wot.meca.in.th&theme=light&viewPanel=6&kiosk"
+                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&from=now-1d&to=now&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-2&var-gateway=jupiter-inc1-01.gw.wot.meca.in.th&theme=light&viewPanel=6&kiosk"
                       }
                     },
-                    "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
+                    "footer": "ข้อมูลจาก BESS ศอ. / TSS ศอ. / NFEC สวทช."
                   },
                   "iconURL": {
                     "method": "GET",
@@ -268,10 +268,10 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&from=1660555499331&to=1660641899331&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-2&var-gateway=jupiter-ssh-01.gw.wot.meca.in.th&theme=light&viewPanel=6&kiosk"
+                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&from=now-1d&to=now&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-2&var-gateway=jupiter-ssh-01.gw.wot.meca.in.th&theme=light&viewPanel=6&kiosk"
                       }
                     },
-                    "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
+                    "footer": "ข้อมูลจาก BESS ศอ. / TSS ศอ. / NFEC สวทช."
                   },
                   "iconURL": {
                     "method": "GET",
@@ -290,10 +290,10 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-2&var-gateway=jupiter-nanotecpp-01.gw.wot.meca.in.th&from=1660560172650&to=1660646572650&theme=light&viewPanel=6&kiosk"
+                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-2&var-gateway=jupiter-nanotecpp-01.gw.wot.meca.in.th&from=now-1d&to=now&theme=light&viewPanel=6&kiosk"
                       }
                     },
-                    "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
+                    "footer": "ข้อมูลจาก BESS ศอ. / TSS ศอ. / NFEC สวทช."
                   },
                   "iconURL": {
                     "method": "GET",
