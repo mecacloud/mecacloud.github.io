@@ -47,7 +47,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-1&var-gateway=jupiter-co-01.gw.wot.meca.in.th&from=now/d&to=now&theme=light&viewPanel=6&kiosk"
+                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-measurement=power_meter&var-field=ac.totalActivePower&var-device_id=lime-device-1&var-gateway=jupiter-co-01.gw.wot.meca.in.th&from=now-1d&to=now&theme=light&viewPanel=6&kiosk"
                       }
                     },
                     "footer": "ข้อมูลจาก BESS ศอ. / TSS ศอ. / NFEC สวทช."
@@ -69,7 +69,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-7&var-gateway=jupiter-nectec-01.gw.wot.meca.in.th&from=now/d&to=now&theme=light&viewPanel=6&kiosk"
+                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-measurement=power_meter&var-field=ac.totalActivePower&var-device_id=lime-device-7&var-gateway=jupiter-nectec-01.gw.wot.meca.in.th&from=now-1d&to=now&theme=light&viewPanel=6&kiosk"
                       }
                     },
                     "footer": "ข้อมูลจาก BESS ศอ. / TSS ศอ. / NFEC สวทช."
@@ -91,7 +91,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-1&var-gateway=jupiter-mtec-01.gw.wot.meca.in.th&from=now/d&to=now&theme=light&viewPanel=6&kiosk"
+                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-measurement=power_meter&var-field=ac.totalActivePower&var-device_id=lime-device-1&var-gateway=jupiter-mtec-01.gw.wot.meca.in.th&from=now-1d&to=now&theme=light&viewPanel=6&kiosk"
                       }
                     },
                     "footer": "ข้อมูลจาก BESS ศอ. / TSS ศอ. / NFEC สวทช."
@@ -113,7 +113,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-1&var-gateway=jupiter-nectecpp-01.gw.wot.meca.in.th&from=now/d&to=now&theme=light&viewPanel=6&kiosk"
+                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-measurement=power_meter&var-field=ac.totalActivePower&var-device_id=lime-device-1&var-gateway=jupiter-nectecpp-01.gw.wot.meca.in.th&from=now-1d&to=now&theme=light&viewPanel=6&kiosk"
                       }
                     },
                     "footer": "ข้อมูลจาก BESS ศอ. / TSS ศอ. / NFEC สวทช."
@@ -135,7 +135,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-2&var-gateway=jupiter-nanotecpp-01.gw.wot.meca.in.th&from=now/d&to=now&theme=light&viewPanel=6&kiosk"
+                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-measurement=power_meter&var-field=ac.totalActivePower&var-device_id=lime-device-2&var-gateway=jupiter-nanotecpp-01.gw.wot.meca.in.th&from=now-1d&to=now&theme=light&viewPanel=6&kiosk"
                       }
                     },
                     "footer": "ข้อมูลจาก BESS ศอ. / TSS ศอ. / NFEC สวทช."
@@ -157,7 +157,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-1&var-gateway=jupiter-mtecpp-01.gw.wot.meca.in.th&from=now/d&to=now&theme=light&viewPanel=6&kiosk"
+                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-measurement=power_meter&var-field=ac.totalActivePower&var-device_id=lime-device-1&var-gateway=jupiter-mtecpp-01.gw.wot.meca.in.th&from=now-1d&to=now&theme=light&viewPanel=6&kiosk"
                       }
                     },
                     "footer": "ข้อมูลจาก BESS ศอ. / TSS ศอ. / NFEC สวทช."
@@ -179,7 +179,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-1&var-gateway=jupiter-greenhouse-01.gw.wot.meca.in.th&from=now/d&to=now&theme=light&viewPanel=6&kiosk"
+                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-measurement=power_meter&var-field=ac.totalActivePower&var-device_id=lime-device-1&var-gateway=jupiter-greenhouse-01.gw.wot.meca.in.th&from=now-1d&to=now&theme=light&viewPanel=6&kiosk"
                       }
                     },
                     "footer": "ข้อมูลจาก BESS ศอ. / TSS ศอ. / NFEC สวทช."
@@ -202,7 +202,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-2&var-gateway=jupiter-inc1-01.gw.wot.meca.in.th&from=now/d&to=now&theme=light&viewPanel=6&kiosk"
+                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-measurement=power_meter&var-field=ac.totalActivePower&var-device_id=lime-device-2&var-gateway=jupiter-inc1-01.gw.wot.meca.in.th&from=now-1d&to=now&theme=light&viewPanel=6&kiosk"
                       }
                     },
                     "footer": "ข้อมูลจาก BESS ศอ. / TSS ศอ. / NFEC สวทช."
@@ -224,7 +224,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-1&var-gateway=jupiter-ut-01.gw.wot.meca.in.th&from=now/d&to=now&theme=light&viewPanel=6&kiosk"
+                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-measurement=power_meter&var-field=ac.totalActivePower&var-device_id=lime-device-1&var-gateway=jupiter-ut-01.gw.wot.meca.in.th&from=now-1d&to=now&theme=light&viewPanel=6&kiosk"
                       }
                     },
                     "footer": "ข้อมูลจาก BESS ศอ. / TSS ศอ. / NFEC สวทช."
@@ -246,7 +246,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-1&var-gateway=jupiter-biotecpp-01.gw.wot.meca.in.th&from=now/d&to=now&theme=light&viewPanel=6&kiosk"
+                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-measurement=power_meter&var-field=ac.totalActivePower&var-device_id=lime-device-1&var-gateway=jupiter-biotecpp-01.gw.wot.meca.in.th&from=now-1d&to=now&theme=light&viewPanel=6&kiosk"
                       }
                     },
                     "footer": "ข้อมูลจาก BESS ศอ. / TSS ศอ. / NFEC สวทช."
@@ -268,7 +268,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-2&var-gateway=jupiter-ssh-01.gw.wot.meca.in.th&from=now/d&to=now&theme=light&viewPanel=6&kiosk"
+                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-measurement=power_meter&var-field=ac.totalActivePower&var-device_id=lime-device-2&var-gateway=jupiter-ssh-01.gw.wot.meca.in.th&from=now-1d&to=now&theme=light&viewPanel=6&kiosk"
                       }
                     },
                     "footer": "ข้อมูลจาก BESS ศอ. / TSS ศอ. / NFEC สวทช."
@@ -310,10 +310,10 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://www.sunnyportal.com/Templates/PublicPage.aspx?page=63a455d9-b50a-4915-8dc9-34edcc1273bd"
+                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-measurement=solar&var-field=ac.power.input&var-device_id=colorfulpv.nectec&var-gateway=wot.meca.in.th&from=now-1d&to=now&theme=light&viewPanel=6&kiosk"
                       }
                     },
-                    "footer": "ข้อมูลจาก BESS ศอ."
+                    "footer": "ข้อมูลจาก BESS ศอ. / TSS ศอ. / NFEC สวทช."
                   },
                   "iconURL": {
                     "method": "GET",
