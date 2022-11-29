@@ -41,13 +41,13 @@
               "id": "urn:smartnstda:MapObject:buildingElectricityUsage",
               "markers": [
                 {
-                  "id": "urn:smartnstda:Marker:buildingElectricityUsage:nectec",
+                  "id": "urn:smartnstda:Marker:buildingElectricityUsage:co",
                   "hoverContent": {
-                    "title": "การใช้ไฟฟ้าอาคารศอ.",
+                    "title": "การใช้ไฟฟ้าอาคาร CO",
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-14&var-gateway=jupiter2.gw.wot.meca.in.th&from=now-1d&to=now&theme=light&viewPanel=6&kiosk"
+                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-1&var-gateway=jupiter-co-01.gw.wot.meca.in.th&from=now/d&to=now&theme=light&viewPanel=6&kiosk"
                       }
                     },
                     "footer": "ข้อมูลจาก BESS ศอ. / TSS ศอ. / NFEC สวทช."
@@ -56,42 +56,42 @@
                     "method": "GET",
                     "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
                   },
-                  "name": "การใช้ไฟฟ้าอาคารศอ.",
+                  "name": "การใช้ไฟฟ้าอาคาร CO",
+                  "position": {
+                    "lat": 14.07672,
+                    "lng": 100.60168
+                  }
+                },
+                {
+                  "id": "urn:smartnstda:Marker:buildingElectricityUsage:nectec",
+                  "hoverContent": {
+                    "title": "การใช้ไฟฟ้าอาคาร NECTEC",
+                    "bodyContent": {
+                      "embeddedURL": {
+                        "method": "GET",
+                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-7&var-gateway=jupiter-nectec-01.gw.wot.meca.in.th&from=now/d&to=now&theme=light&viewPanel=6&kiosk"
+                      }
+                    },
+                    "footer": "ข้อมูลจาก BESS ศอ. / TSS ศอ. / NFEC สวทช."
+                  },
+                  "iconURL": {
+                    "method": "GET",
+                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
+                  },
+                  "name": "การใช้ไฟฟ้าอาคาร NECTEC",
                   "position": {
                     "lat": 14.07787,
                     "lng": 100.601298
                   }
                 },
                 {
-                  "id": "urn:smartnstda:Marker:buildingElectricityUsage:biotec",
-                  "hoverContent": {
-                    "title": "การใช้ไฟฟ้าอาคารศช.",
-                    "bodyContent": {
-                      "embeddedURL": {
-                        "method": "GET",
-                        "url": ""
-                      }
-                    },
-                    "footer": "ข้อมูลจาก FMD สวทช. / INO ศอ."
-                  },
-                  "iconURL": {
-                    "method": "GET",
-                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
-                  },
-                  "name": "การใช้ไฟฟ้าอาคารศช.",
-                  "position": {
-                    "lat": 14.07848,
-                    "lng": 100.60128
-                  }
-                },
-                {
                   "id": "urn:smartnstda:Marker:buildingElectricityUsage:mtec",
                   "hoverContent": {
-                    "title": "การใช้ไฟฟ้าอาคารศว.",
+                    "title": "การใช้ไฟฟ้าอาคาร MTEC",
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-1&var-gateway=jupiter-mtec-01.gw.wot.meca.in.th&from=now-1d&to=now&theme=light&viewPanel=6&kiosk"
+                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-1&var-gateway=jupiter-mtec-01.gw.wot.meca.in.th&from=now/d&to=now&theme=light&viewPanel=6&kiosk"
                       }
                     },
                     "footer": "ข้อมูลจาก BESS ศอ. / TSS ศอ. / NFEC สวทช."
@@ -100,32 +100,10 @@
                     "method": "GET",
                     "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
                   },
-                  "name": "การใช้ไฟฟ้าอาคารศส.",
+                  "name": "การใช้ไฟฟ้าอาคาร MTEC",
                   "position": {
                     "lat": 14.07896,
                     "lng": 100.60128
-                  }
-                },
-                {
-                  "id": "urn:smartnstda:Marker:buildingElectricityUsage:co",
-                  "hoverContent": {
-                    "title": "การใช้ไฟฟ้าอาคารสก.",
-                    "bodyContent": {
-                      "embeddedURL": {
-                        "method": "GET",
-                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-2&var-gateway=jupiter-co-01.gw.wot.meca.in.th&orgId=1&from=now-1d&to=now&viewPanel=8"
-                      }
-                    },
-                    "footer": "ข้อมูลจาก BESS ศอ. / TSS ศอ. / NFEC สวทช."
-                  },
-                  "iconURL": {
-                    "method": "GET",
-                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
-                  },
-                  "name": "การใช้ไฟฟ้าอาคารสก.",
-                  "position": {
-                    "lat": 14.07672,
-                    "lng": 100.60168
                   }
                 },
                 {
@@ -135,7 +113,7 @@
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&from=now-1d&to=now&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-1&var-gateway=jupiter-nectecpp-01.gw.wot.meca.in.th&theme=light&viewPanel=6&kiosk"
+                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-1&var-gateway=jupiter-nectecpp-01.gw.wot.meca.in.th&from=now/d&to=now&theme=light&viewPanel=6&kiosk"
                       }
                     },
                     "footer": "ข้อมูลจาก BESS ศอ. / TSS ศอ. / NFEC สวทช."
@@ -151,13 +129,35 @@
                   }
                 },
                 {
+                  "id": "urn:smartnstda:Marker:buildingElectricityUsage:nanotecpp",
+                  "hoverContent": {
+                    "title": "การใช้ไฟฟ้าอาคาร NANOTEC Pilot plant",
+                    "bodyContent": {
+                      "embeddedURL": {
+                        "method": "GET",
+                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-2&var-gateway=jupiter-nanotecpp-01.gw.wot.meca.in.th&from=now/d&to=now&theme=light&viewPanel=6&kiosk"
+                      }
+                    },
+                    "footer": "ข้อมูลจาก BESS ศอ. / TSS ศอ. / NFEC สวทช."
+                  },
+                  "iconURL": {
+                    "method": "GET",
+                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
+                  },
+                  "name": "การใช้ไฟฟ้าอาคาร NANOTEC Pilot plant",
+                  "position": {
+                    "lat": 14.07897,
+                    "lng": 100.60312
+                  }
+                },
+                {
                   "id": "urn:smartnstda:Marker:buildingElectricityUsage:mtecpp",
                   "hoverContent": {
                     "title": "การใช้ไฟฟ้าอาคาร MTEC Pilot plant",
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&from=now-1d&to=now&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-2&var-gateway=jupiter-mtecpp-01.gw.wot.meca.in.th&theme=light&viewPanel=6&kiosk"
+                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-1&var-gateway=jupiter-mtecpp-01.gw.wot.meca.in.th&from=now/d&to=now&theme=light&viewPanel=6&kiosk"
                       }
                     },
                     "footer": "ข้อมูลจาก BESS ศอ. / TSS ศอ. / NFEC สวทช."
@@ -173,13 +173,80 @@
                   }
                 },
                 {
+                  "id": "urn:smartnstda:Marker:buildingElectricityUsage:greenhouse1",
+                  "hoverContent": {
+                    "title": "การใช้ไฟฟ้าอาคาร Green House",
+                    "bodyContent": {
+                      "embeddedURL": {
+                        "method": "GET",
+                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-1&var-gateway=jupiter-greenhouse-01.gw.wot.meca.in.th&from=now/d&to=now&theme=light&viewPanel=6&kiosk"
+                      }
+                    },
+                    "footer": "ข้อมูลจาก BESS ศอ. / TSS ศอ. / NFEC สวทช."
+                  },
+                  "iconURL": {
+                    "method": "GET",
+                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
+                  },
+                  "name": "การใช้ไฟฟ้าอาคาร Green House",
+                  "position": {
+                    
+                    "lat": 14.081181213072574,
+                    "lng": 100.60262766523306
+                  }
+                },
+                {
+                  "id": "urn:smartnstda:Marker:buildingElectricityUsage:inc1",
+                  "hoverContent": {
+                    "title": "การใช้ไฟฟ้าอาคาร INC1",
+                    "bodyContent": {
+                      "embeddedURL": {
+                        "method": "GET",
+                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-2&var-gateway=jupiter-inc1-01.gw.wot.meca.in.th&from=now/d&to=now&theme=light&viewPanel=6&kiosk"
+                      }
+                    },
+                    "footer": "ข้อมูลจาก BESS ศอ. / TSS ศอ. / NFEC สวทช."
+                  },
+                  "iconURL": {
+                    "method": "GET",
+                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
+                  },
+                  "name": "การใช้ไฟฟ้าอาคาร INC1",
+                  "position": {
+                    "lat": 14.07674,
+                    "lng": 100.60267
+                  }
+                },
+                {
+                  "id": "urn:smartnstda:Marker:buildingElectricityUsage:ut",
+                  "hoverContent": {
+                    "title": "การใช้ไฟฟ้าอาคาร Utility House",
+                    "bodyContent": {
+                      "embeddedURL": {
+                        "method": "GET",
+                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-1&var-gateway=jupiter-ut-01.gw.wot.meca.in.th&from=now/d&to=now&theme=light&viewPanel=6&kiosk"
+                      }
+                    },
+                    "footer": "ข้อมูลจาก BESS ศอ. / TSS ศอ. / NFEC สวทช."
+                  },
+                  "iconURL": {
+                    "method": "GET",
+                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
+                  },
+                  "name": "การใช้ไฟฟ้าอาคาร Utility House",
+                  "position": {
+                    "lat": 14.079439364433563,
+                    "lng": 100.60219881520447
+                  }
+                },
+                {
                   "id": "urn:smartnstda:Marker:buildingElectricityUsage:biotecpp",
                   "hoverContent": {
                     "title": "การใช้ไฟฟ้าอาคาร BIOTEC Pilot plant",
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&from=now-1d&to=now&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-2&var-gateway=jupiter-biotecpp-01.gw.wot.meca.in.th&theme=light&viewPanel=6&kiosk"
+                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-1&var-gateway=jupiter-biotecpp-01.gw.wot.meca.in.th&from=now/d&to=now&theme=light&viewPanel=6&kiosk"
                       }
                     },
                     "footer": "ข้อมูลจาก BESS ศอ. / TSS ศอ. / NFEC สวทช."
@@ -195,80 +262,13 @@
                   }
                 },
                 {
-                  "id": "urn:smartnstda:Marker:buildingElectricityUsage:ut",
-                  "hoverContent": {
-                    "title": "การใช้ไฟฟ้าอาคาร Utility House",
-                    "bodyContent": {
-                      "embeddedURL": {
-                        "method": "GET",
-                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-1&var-gateway=jupiter-ut-01.gw.wot.meca.in.th&from=now-1d&to=now&theme=light&viewPanel=6&kiosk"
-                      }
-                    },
-                    "footer": "ข้อมูลจาก BESS ศอ. / TSS ศอ. / NFEC สวทช."
-                  },
-                  "iconURL": {
-                    "method": "GET",
-                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
-                  },
-                  "name": "การใช้ไฟฟ้าอาคาร TOT",
-                  "position": {
-                    "lat": 14.079439364433563,
-                    "lng": 100.60219881520447
-                  }
-                },
-                {
-                  "id": "urn:smartnstda:Marker:buildingElectricityUsage:greenhouse1",
-                  "hoverContent": {
-                    "title": "การใช้ไฟฟ้าอาคาร Green House 1",
-                    "bodyContent": {
-                      "embeddedURL": {
-                        "method": "GET",
-                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-2&var-gateway=jupiter-greenhouse-01.gw.wot.meca.in.th&from=now-1d&to=now&theme=light&viewPanel=6&kiosk"
-                      }
-                    },
-                    "footer": "ข้อมูลจาก BESS ศอ. / TSS ศอ. / NFEC สวทช."
-                  },
-                  "iconURL": {
-                    "method": "GET",
-                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
-                  },
-                  "name": "การใช้ไฟฟ้าอาคาร TOT",
-                  "position": {
-                    
-                    "lat": 14.081181213072574,
-                    "lng": 100.60262766523306
-                  }
-                },
-                {
-                  "id": "urn:smartnstda:Marker:buildingElectricityUsage:inc1",
-                  "hoverContent": {
-                    "title": "การใช้ไฟฟ้าอาคารกลุ่มนวัตกรรม 1 (หักชั้น 3 ส่วนต่อเติมสำนักงานกลาง)",
-                    "bodyContent": {
-                      "embeddedURL": {
-                        "method": "GET",
-                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&from=now-1d&to=now&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-2&var-gateway=jupiter-inc1-01.gw.wot.meca.in.th&theme=light&viewPanel=6&kiosk"
-                      }
-                    },
-                    "footer": "ข้อมูลจาก BESS ศอ. / TSS ศอ. / NFEC สวทช."
-                  },
-                  "iconURL": {
-                    "method": "GET",
-                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
-                  },
-                  "name": "การใช้ไฟฟ้าอาคารกลุ่มนวัตกรรม 1 (หักชั้น 3 ส่วนต่อเติมสำนักงานกลาง)",
-                  "position": {
-                    "lat": 14.07674,
-                    "lng": 100.60267
-                  }
-                },
-                {
                   "id": "urn:smartnstda:Marker:buildingElectricityUsage:ssh",
                   "hoverContent": {
                     "title": "การใช้ไฟฟ้าอาคารบ้านวิทยาศาสตร์สิรินธร",
                     "bodyContent": {
                       "embeddedURL": {
                         "method": "GET",
-                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&from=now-1d&to=now&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-2&var-gateway=jupiter-ssh-01.gw.wot.meca.in.th&theme=light&viewPanel=6&kiosk"
+                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-2&var-gateway=jupiter-ssh-01.gw.wot.meca.in.th&from=now/d&to=now&theme=light&viewPanel=6&kiosk"
                       }
                     },
                     "footer": "ข้อมูลจาก BESS ศอ. / TSS ศอ. / NFEC สวทช."
@@ -281,28 +281,6 @@
                   "position": {
                     "lat": 14.0809,
                     "lng": 100.60405
-                  }
-                },
-                {
-                  "id": "urn:smartnstda:Marker:buildingElectricityUsage:nanotecpp",
-                  "hoverContent": {
-                    "title": "การใช้ไฟฟ้าอาคาร NANOTEC Pilot plant",
-                    "bodyContent": {
-                      "embeddedURL": {
-                        "method": "GET",
-                        "url": "https://grafana.smart-city.web.meca.in.th/d/EusSK4iVz/home?orgId=1&var-bucket=smart-tsp&var-field=ac.totalActivePower&var-device_id=lime-device-2&var-gateway=jupiter-nanotecpp-01.gw.wot.meca.in.th&from=now-1d&to=now&theme=light&viewPanel=6&kiosk"
-                      }
-                    },
-                    "footer": "ข้อมูลจาก BESS ศอ. / TSS ศอ. / NFEC สวทช."
-                  },
-                  "iconURL": {
-                    "method": "GET",
-                    "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
-                  },
-                  "name": "การใช้ไฟฟ้าอาคาร NANOTEC Pilot plant",
-                  "position": {
-                    "lat": 14.07897,
-                    "lng": 100.60312
                   }
                 }
               ],
